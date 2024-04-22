@@ -1,0 +1,10613 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6032c3de-64f9-4127-a440-a7de6b08f07a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:GDT_2Pin"
+			(pin_numbers hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GD"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GDT_2Pin"
+				(at 7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Gas Discharge Tube with 2 Pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "gdt"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GDT_2Pin_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.5814)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GDT_2Pin_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:SMAJ12CA"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ12CA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 12.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ12CA_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ12CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 201.93 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b67ade5-7477-48df-a1e9-7ade95b821bb")
+	)
+	(junction
+		(at 38.1 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11c1f384-8ab6-4905-b83b-e148390a4f31")
+	)
+	(junction
+		(at 38.1 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bbfaae6-9a68-4b64-9cf0-07a08eae2e89")
+	)
+	(junction
+		(at 129.54 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21e75268-d35b-4301-8de7-e711678cdd8d")
+	)
+	(junction
+		(at 201.93 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "230971f3-8153-411c-8e62-0a66bd1c387b")
+	)
+	(junction
+		(at 123.19 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2330fb21-e873-478b-bab8-a4651278e574")
+	)
+	(junction
+		(at 44.45 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c25abd5-d05b-46fe-be62-eba6304ce67d")
+	)
+	(junction
+		(at 129.54 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d20dff0-422d-4259-9359-855da8bdbed7")
+	)
+	(junction
+		(at 143.51 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "324cf37c-4844-487e-aff8-9572560ee523")
+	)
+	(junction
+		(at 143.51 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32e8ea44-faf3-45a9-83e3-320141d68208")
+	)
+	(junction
+		(at 64.77 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4048f167-a1c8-4219-9637-d68b5e456c01")
+	)
+	(junction
+		(at 44.45 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "412e6ebf-50ae-498f-bc80-4c19f6af5e60")
+	)
+	(junction
+		(at 143.51 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bcd0121-8cb6-41c1-851d-922c7bb77f7c")
+	)
+	(junction
+		(at 44.45 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e5d4c40-c474-4d16-8e25-f62c96d797a3")
+	)
+	(junction
+		(at 123.19 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5201f47c-0cc7-4d53-a7e1-be60df011b39")
+	)
+	(junction
+		(at 116.84 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "549fdaec-c865-4273-9339-7e8d112efe1b")
+	)
+	(junction
+		(at 50.8 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "639b1a60-5d2b-4919-8a1d-6372a538f6e4")
+	)
+	(junction
+		(at 50.8 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6406a194-1419-40ab-a289-7aac876bf443")
+	)
+	(junction
+		(at 201.93 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "679653ca-1a1b-4210-b5b4-56133f2874f1")
+	)
+	(junction
+		(at 129.54 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69a61de7-9c09-4368-ab74-33366a92aad5")
+	)
+	(junction
+		(at 201.93 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6de155ab-8e81-4331-8b18-912c9075af92")
+	)
+	(junction
+		(at 44.45 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7035ad3b-1dcd-4213-8e61-4e86be3ba980")
+	)
+	(junction
+		(at 222.25 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "713820f0-dffc-4e8e-9258-80fbf8523943")
+	)
+	(junction
+		(at 44.45 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ac35bb-f1aa-44c4-a52e-8b746ced410b")
+	)
+	(junction
+		(at 116.84 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73a54e18-15e1-499b-a0ff-35385cc6ab2b")
+	)
+	(junction
+		(at 195.58 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "769b0ab8-edb7-4eec-a5b6-4908c91b0a55")
+	)
+	(junction
+		(at 50.8 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78f9fbd0-c3ba-42e4-a58c-0e7ec9a40fd5")
+	)
+	(junction
+		(at 64.77 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "802b34d2-4167-43b9-98f2-101af03cb6b2")
+	)
+	(junction
+		(at 123.19 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "812e7f3a-3159-4660-a75f-6edb99feb0fb")
+	)
+	(junction
+		(at 201.93 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "829a6ef9-5fd6-4dc7-937a-09d7ffe622f2")
+	)
+	(junction
+		(at 44.45 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85e4353b-bbd1-4a25-9a05-9d5d400968e7")
+	)
+	(junction
+		(at 208.28 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89f98efa-2cf6-4238-bb2a-e08dc5db23f2")
+	)
+	(junction
+		(at 64.77 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e449129-af74-4530-94a0-9a54867f0e86")
+	)
+	(junction
+		(at 38.1 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d94596-95a4-49ec-b6b9-d68af5144125")
+	)
+	(junction
+		(at 64.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "946aa57f-573b-40ac-922f-712f7247d286")
+	)
+	(junction
+		(at 222.25 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94941f18-c42e-4461-aad8-841c7f3e694d")
+	)
+	(junction
+		(at 208.28 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96834f54-9125-4ce4-a707-8acf41de79f2")
+	)
+	(junction
+		(at 143.51 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98c6a483-7bc0-4dea-8912-2bfe8754d93d")
+	)
+	(junction
+		(at 123.19 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b16cae2-27b9-4d52-ac1d-2f1d0004f40c")
+	)
+	(junction
+		(at 195.58 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a44736bb-6ce1-457a-b73e-7d7256c97b2e")
+	)
+	(junction
+		(at 44.45 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa787449-e09e-4b73-be7f-b3c1504608ef")
+	)
+	(junction
+		(at 116.84 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3bbdda-b305-4e64-b70f-35da3dc6fbae")
+	)
+	(junction
+		(at 222.25 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afc42d22-0028-45b2-a9a4-0ca507b95931")
+	)
+	(junction
+		(at 123.19 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4204ee7-59c2-4a2d-8c81-660b705a4e23")
+	)
+	(junction
+		(at 50.8 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4989a24-c78e-4323-a841-3d5d119f53b3")
+	)
+	(junction
+		(at 208.28 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4a8b275-6e59-4c59-8f6b-a28ef1d808e0")
+	)
+	(junction
+		(at 195.58 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9660619-b893-4d09-a705-0d046f30a4dc")
+	)
+	(junction
+		(at 129.54 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ef4588-1efa-4efb-b363-bcbc6fe69a91")
+	)
+	(junction
+		(at 64.77 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4834c6-a431-48b4-947c-4a40d3e7a37c")
+	)
+	(junction
+		(at 64.77 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc73e6d7-b728-4f1d-9378-4311ab4697aa")
+	)
+	(junction
+		(at 116.84 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf823f92-2b43-4d6c-be19-093039c3192d")
+	)
+	(junction
+		(at 123.19 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfb34efd-1ba1-4672-9894-39512e906bbf")
+	)
+	(junction
+		(at 38.1 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0a46837-0f4b-42f3-bcb2-80dc1540cf7b")
+	)
+	(junction
+		(at 44.45 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94084d4-1f57-436a-acea-441185024d59")
+	)
+	(junction
+		(at 44.45 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9bef331-1de4-480f-8d67-e5b117446c40")
+	)
+	(junction
+		(at 123.19 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca3cbf60-32ee-4562-be6f-be72ae8ecf92")
+	)
+	(junction
+		(at 38.1 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca9420f2-4366-4942-9f49-44017c885205")
+	)
+	(junction
+		(at 50.8 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d55aa39e-4bc7-4949-9818-505f4b286d95")
+	)
+	(junction
+		(at 208.28 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d64ce2b0-61e5-472d-ba21-4506f4e78cea")
+	)
+	(junction
+		(at 123.19 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76ec58b-838b-4051-aa06-bfe9badbf889")
+	)
+	(junction
+		(at 201.93 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc13f0e9-98d7-44d0-9119-9b7be04370ef")
+	)
+	(junction
+		(at 116.84 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc762bc9-365a-401c-ae40-a0435a5e9d43")
+	)
+	(junction
+		(at 222.25 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd81670e-5f6f-4fdb-aa23-982700299e1e")
+	)
+	(junction
+		(at 123.19 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3307f05-79ac-4490-adeb-8715302fda09")
+	)
+	(junction
+		(at 143.51 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9b7f315-7315-47e1-ac1e-95784e7d43c3")
+	)
+	(junction
+		(at 116.84 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f454abaa-e260-4237-8810-8f083bdcefd6")
+	)
+	(junction
+		(at 129.54 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f786e3e6-e50d-48d8-9d00-db4d72fc150d")
+	)
+	(junction
+		(at 129.54 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8fa5c7b-4ee6-4709-9418-e8213e1f63c7")
+	)
+	(junction
+		(at 38.1 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb066ce3-1cca-47de-863b-43cf5615bea6")
+	)
+	(junction
+		(at 195.58 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb59af88-813f-4a46-a0a9-1d4a17461677")
+	)
+	(junction
+		(at 50.8 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd6bec7e-e2b7-4585-b1d4-ffd1bf340ab7")
+	)
+	(junction
+		(at 143.51 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe4e9298-f923-4b33-a997-c300319f5fff")
+	)
+	(wire
+		(pts
+			(xy 179.07 19.05) (xy 195.58 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003223d7-6d94-45d3-80a4-6b7699ee56c6")
+	)
+	(wire
+		(pts
+			(xy 129.54 39.37) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e26d65-6e81-4346-b022-a705f90d1d87")
+	)
+	(wire
+		(pts
+			(xy 222.25 68.58) (xy 241.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04084846-d196-4a6a-997f-a363508d0d9f")
+	)
+	(wire
+		(pts
+			(xy 127 153.67) (xy 129.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047732e8-ba26-4bde-be65-f15b1a9a5f0d")
+	)
+	(wire
+		(pts
+			(xy 236.22 86.36) (xy 236.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05538d67-cdc1-4af2-9547-8f257239f0c3")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075d9cdc-5995-4415-8ccc-2dc864b10564")
+	)
+	(wire
+		(pts
+			(xy 50.8 138.43) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077204ff-077d-48e2-98f6-b3acdb641620")
+	)
+	(wire
+		(pts
+			(xy 26.67 36.83) (xy 26.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0826e006-ff4c-48c9-8e27-f33864fb2289")
+	)
+	(wire
+		(pts
+			(xy 50.8 19.05) (xy 64.77 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ea9078-496d-4b5a-81da-af22b2920f99")
+	)
+	(wire
+		(pts
+			(xy 143.51 19.05) (xy 162.56 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d0f39a-6bb6-4f80-b80a-8efbc9b4a64a")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9905b1-3402-4074-b617-a5283daf17c0")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 143.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca6d5c9-4215-497d-8407-82f1dad832b4")
+	)
+	(wire
+		(pts
+			(xy 222.25 41.91) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb1ce27-f270-4202-ae23-6580f6f912dc")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 116.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12093972-ed86-4036-8462-0610b6176b7f")
+	)
+	(wire
+		(pts
+			(xy 50.8 100.33) (xy 50.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126dcb99-48a6-4f22-ac4a-ead543297cc8")
+	)
+	(wire
+		(pts
+			(xy 127 54.61) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130344e3-c9d8-47e2-ba44-3eea6680240a")
+	)
+	(wire
+		(pts
+			(xy 48.26 153.67) (xy 50.8 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1321e6a6-49ad-4d3c-87be-76407ea027f6")
+	)
+	(wire
+		(pts
+			(xy 116.84 130.81) (xy 116.84 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c533d1-ecdf-4905-a557-294db0017b86")
+	)
+	(wire
+		(pts
+			(xy 46.99 135.89) (xy 44.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163e2bc2-40bf-47ef-b6f7-f0153ffaa6bf")
+	)
+	(wire
+		(pts
+			(xy 201.93 36.83) (xy 201.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19453ea7-7002-4c0b-989b-4243a5291200")
+	)
+	(wire
+		(pts
+			(xy 48.26 19.05) (xy 50.8 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acce7dd-5792-4bfa-ad53-8d38b87e211d")
+	)
+	(wire
+		(pts
+			(xy 40.64 153.67) (xy 38.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b431a6b-7386-4a05-adee-bfa7acb7f7d3")
+	)
+	(wire
+		(pts
+			(xy 123.19 133.35) (xy 129.54 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca58959-0d6b-461e-b08b-b4e306c45da3")
+	)
+	(wire
+		(pts
+			(xy 44.45 135.89) (xy 44.45 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ccef833-3ea0-4390-96b7-fb31950ea11d")
+	)
+	(wire
+		(pts
+			(xy 208.28 39.37) (xy 208.28 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfbc75a-9290-41e8-9094-9681c94eb47b")
+	)
+	(wire
+		(pts
+			(xy 201.93 88.9) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd84d83-0fd2-45b9-9b82-4de130198800")
+	)
+	(wire
+		(pts
+			(xy 50.8 71.12) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1f252c-94a1-41e2-ae02-a5a2974b3837")
+	)
+	(wire
+		(pts
+			(xy 116.84 151.13) (xy 116.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fafcf84-6b3f-46ba-9bb2-2aabfa996830")
+	)
+	(wire
+		(pts
+			(xy 100.33 31.75) (xy 100.33 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22c0f3cb-31a4-48b0-abab-1fef728a7f55")
+	)
+	(wire
+		(pts
+			(xy 119.38 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22faf95a-4c8b-4b82-8eb8-105c9c661efb")
+	)
+	(wire
+		(pts
+			(xy 129.54 39.37) (xy 123.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2317f886-b1f8-4007-be08-87b5696f7f3e")
+	)
+	(wire
+		(pts
+			(xy 157.48 54.61) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2467e8e0-b2f3-489f-90bb-76e70ee38ae3")
+	)
+	(wire
+		(pts
+			(xy 50.8 118.11) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247f32e2-92ac-4928-a476-129ea43b0e5d")
+	)
+	(wire
+		(pts
+			(xy 116.84 19.05) (xy 116.84 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2827d036-618c-4bf6-8f0d-57364b00e5a4")
+	)
+	(wire
+		(pts
+			(xy 143.51 68.58) (xy 162.56 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2953ca7e-fb12-474f-8ccd-734bcdb5dc55")
+	)
+	(wire
+		(pts
+			(xy 157.48 135.89) (xy 157.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a23787d-c700-4c4e-8a12-45b395ede31f")
+	)
+	(wire
+		(pts
+			(xy 83.82 68.58) (xy 83.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a66b0fd-0e13-4daa-906d-4c22902d5298")
+	)
+	(wire
+		(pts
+			(xy 208.28 88.9) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac57a93-2c45-4ac3-aa4f-59884f0ef183")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af19d19-1067-41e9-b239-d204bd14f2d6")
+	)
+	(wire
+		(pts
+			(xy 105.41 135.89) (xy 105.41 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d42d644-3da5-4a9d-900d-b57a171cd6b6")
+	)
+	(wire
+		(pts
+			(xy 222.25 83.82) (xy 222.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e915ec6-93ac-4afd-afe1-b92aa87cbde8")
+	)
+	(wire
+		(pts
+			(xy 236.22 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f772242-0deb-4a2e-8ddf-80c0e30c7d0a")
+	)
+	(wire
+		(pts
+			(xy 50.8 133.35) (xy 50.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31077d16-f315-41db-82f6-28ff208001d8")
+	)
+	(wire
+		(pts
+			(xy 129.54 50.8) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3121d229-4af7-4051-b604-3fec1781da5c")
+	)
+	(wire
+		(pts
+			(xy 48.26 54.61) (xy 50.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31983d51-4cc9-4c31-943b-4c85c97c0722")
+	)
+	(wire
+		(pts
+			(xy 44.45 86.36) (xy 44.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a49d93-685a-4103-9939-e4dcc7be4c88")
+	)
+	(wire
+		(pts
+			(xy 64.77 133.35) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32392324-d4e4-4de3-acd3-9d8f566ce089")
+	)
+	(wire
+		(pts
+			(xy 236.22 36.83) (xy 236.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d287d4-b78e-4978-b2e7-f21aa9258163")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 129.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333a0ca8-d4d2-4d9b-8897-f97dfde2482a")
+	)
+	(wire
+		(pts
+			(xy 21.59 130.81) (xy 21.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342a94c0-e12a-43b3-83e7-84aa99ce4e5d")
+	)
+	(wire
+		(pts
+			(xy 201.93 83.82) (xy 201.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34629574-4e0f-4f38-bc21-8154dc40a3a8")
+	)
+	(wire
+		(pts
+			(xy 198.12 54.61) (xy 195.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347564f4-3f71-435a-b280-2248fdc91e8d")
+	)
+	(wire
+		(pts
+			(xy 44.45 133.35) (xy 50.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347b0a23-7bb7-4e5b-babe-d8da30b80271")
+	)
+	(wire
+		(pts
+			(xy 143.51 91.44) (xy 143.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ce7638-0e6d-4bdd-a0b5-1ee096bb0838")
+	)
+	(wire
+		(pts
+			(xy 100.33 68.58) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37eab95c-2b62-457a-9777-0fc6083fde06")
+	)
+	(wire
+		(pts
+			(xy 21.59 118.11) (xy 38.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39721e43-b118-443b-94cf-3fb98edea1d9")
+	)
+	(wire
+		(pts
+			(xy 208.28 100.33) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d0b72c-7aa0-4819-94b3-65a352b6ece5")
+	)
+	(wire
+		(pts
+			(xy 78.74 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a43ac9c-730c-422d-9991-347963d3b0fe")
+	)
+	(wire
+		(pts
+			(xy 44.45 88.9) (xy 38.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7be061-99e6-482a-adb5-a4b30245e096")
+	)
+	(wire
+		(pts
+			(xy 105.41 54.61) (xy 116.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7fd8fd-d787-454c-9350-a98932ec425c")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9d843e-ec83-47c4-83f9-fe40311c4bce")
+	)
+	(wire
+		(pts
+			(xy 116.84 138.43) (xy 116.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cac46ce-49ef-44b1-9a84-abc398ca3e3f")
+	)
+	(wire
+		(pts
+			(xy 198.12 104.14) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd723de-dd18-4d11-ac9e-473e726a3d7a")
+	)
+	(wire
+		(pts
+			(xy 44.45 133.35) (xy 44.45 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da7c429-2d49-4e82-b3a5-38a624bca49c")
+	)
+	(wire
+		(pts
+			(xy 40.64 104.14) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dcb6028-d8b8-4191-89b2-cf44149720f3")
+	)
+	(wire
+		(pts
+			(xy 64.77 83.82) (xy 64.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2a98cd-94f9-4cea-86a4-63d8c781da70")
+	)
+	(wire
+		(pts
+			(xy 44.45 34.29) (xy 44.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401ff121-b74a-4050-8578-9c95c9eefab5")
+	)
+	(wire
+		(pts
+			(xy 129.54 149.86) (xy 129.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415567db-eac9-4ede-bedc-5a7981f50b0f")
+	)
+	(wire
+		(pts
+			(xy 38.1 19.05) (xy 38.1 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42cf9ddd-ff75-429a-ac54-108d8dfb3e2d")
+	)
+	(wire
+		(pts
+			(xy 195.58 34.29) (xy 201.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457251ca-84c7-4d9d-a246-7b95e30b1249")
+	)
+	(wire
+		(pts
+			(xy 205.74 19.05) (xy 208.28 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47174afc-ce20-4412-b896-fc11e036f28c")
+	)
+	(wire
+		(pts
+			(xy 143.51 34.29) (xy 143.51 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ca05c8-3c9b-4fa6-9398-d48c303121f5")
+	)
+	(wire
+		(pts
+			(xy 38.1 52.07) (xy 38.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480bee6f-05ab-49a1-ab76-8868aadf85d1")
+	)
+	(wire
+		(pts
+			(xy 40.64 118.11) (xy 38.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4baf94-7140-423c-b241-0856355f46ca")
+	)
+	(wire
+		(pts
+			(xy 44.45 138.43) (xy 38.1 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b42a646-9413-45be-83de-013e7c092505")
+	)
+	(wire
+		(pts
+			(xy 38.1 133.35) (xy 44.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c325c32-9f05-4406-bb31-0df5005d71d0")
+	)
+	(wire
+		(pts
+			(xy 198.12 19.05) (xy 195.58 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c917fd1-f15d-40c5-b2fe-407abbe278ae")
+	)
+	(wire
+		(pts
+			(xy 195.58 31.75) (xy 195.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d075f9d-9f1c-495f-9a5d-11c22e82fc53")
+	)
+	(wire
+		(pts
+			(xy 46.99 36.83) (xy 44.45 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9c761f-1e74-4e42-971b-0203fb74d41c")
+	)
+	(wire
+		(pts
+			(xy 44.45 83.82) (xy 50.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6e59e6-48a9-48ea-bd0c-97aeb3904e5e")
+	)
+	(wire
+		(pts
+			(xy 78.74 36.83) (xy 78.74 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3ad143-7357-4914-a6d9-41ef4d8bb17e")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5900e1-975e-4233-9444-33a0af6a7fe3")
+	)
+	(wire
+		(pts
+			(xy 116.84 39.37) (xy 116.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cacf13-7c0f-413d-b7fe-d0e91dc48ddc")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 44.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553b3da5-7984-49ce-a1aa-deda4b5c5cab")
+	)
+	(wire
+		(pts
+			(xy 119.38 118.11) (xy 116.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572ac949-6922-4214-afe1-c5ca6c839432")
+	)
+	(wire
+		(pts
+			(xy 195.58 81.28) (xy 195.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5849a35a-40bb-4307-be5a-9ce57f124f47")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58767a0f-a99d-4417-9997-e44902c5181a")
+	)
+	(wire
+		(pts
+			(xy 129.54 100.33) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c183a0-b4a3-456c-be2c-b64b799babe4")
+	)
+	(wire
+		(pts
+			(xy 157.48 36.83) (xy 157.48 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592200bd-2644-4b70-bbed-b2e3c4f2de92")
+	)
+	(wire
+		(pts
+			(xy 208.28 71.12) (xy 208.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597353e8-924c-4ee6-a0b0-4aef1059694f")
+	)
+	(wire
+		(pts
+			(xy 208.28 39.37) (xy 201.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d8bb32-ef2d-469b-b9aa-93eb3eabf64b")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 50.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f36887-9f48-4364-a346-6d3ecc69dece")
+	)
+	(wire
+		(pts
+			(xy 129.54 138.43) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a2e5689-bd30-46d3-9d0a-532f7c8c0b3f")
+	)
+	(wire
+		(pts
+			(xy 50.8 153.67) (xy 64.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aca9faa-cee1-4dc3-8aa4-77cabf67ebc4")
+	)
+	(wire
+		(pts
+			(xy 116.84 31.75) (xy 116.84 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5af60c-63b0-4434-8a62-7f2e6864484d")
+	)
+	(wire
+		(pts
+			(xy 125.73 36.83) (xy 123.19 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c732ce2-b998-4314-bbe3-834add423257")
+	)
+	(wire
+		(pts
+			(xy 50.8 34.29) (xy 50.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd48f65-3cd3-44b7-a488-0315e0f07dfc")
+	)
+	(wire
+		(pts
+			(xy 129.54 133.35) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f40663c-a814-4da9-b00e-e1e007b09981")
+	)
+	(wire
+		(pts
+			(xy 119.38 19.05) (xy 116.84 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7b86e5-628c-4a69-bc9b-78d881d1831e")
+	)
+	(wire
+		(pts
+			(xy 64.77 68.58) (xy 83.82 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614bab52-6866-440f-8b9e-d824712cc10d")
+	)
+	(wire
+		(pts
+			(xy 50.8 104.14) (xy 64.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616ca55b-1103-43cd-a353-c2a9fcaa0f11")
+	)
+	(wire
+		(pts
+			(xy 129.54 21.59) (xy 129.54 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62317084-bc62-4c34-9888-234d63ca34bd")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.37) (xy 38.1 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62cdbfda-aa3b-4ddb-80ed-d9cdf4bdfbde")
+	)
+	(wire
+		(pts
+			(xy 129.54 71.12) (xy 129.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6415ce37-2f5b-4d6b-a861-ad157ea655b4")
+	)
+	(wire
+		(pts
+			(xy 222.25 19.05) (xy 241.3 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654288ea-8f9a-4e31-9e87-a22f376a4270")
+	)
+	(wire
+		(pts
+			(xy 208.28 54.61) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65880e79-8af6-4e51-9c84-4852a19b7f0e")
+	)
+	(wire
+		(pts
+			(xy 143.51 118.11) (xy 162.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663ad48a-d43c-4119-9012-a27d14538987")
+	)
+	(wire
+		(pts
+			(xy 38.1 118.11) (xy 38.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66dbb770-e25d-4a96-b670-092115553237")
+	)
+	(wire
+		(pts
+			(xy 64.77 19.05) (xy 83.82 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f7a20c-7296-410c-9029-22747dfe43ee")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683c33e4-b71e-4f7d-bb18-9d22962829a9")
+	)
+	(wire
+		(pts
+			(xy 157.48 153.67) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6932c743-c005-4a05-b1ff-426d1bdf2429")
+	)
+	(wire
+		(pts
+			(xy 38.1 31.75) (xy 38.1 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af4e3aa-c55d-4d01-95cb-5bd20b1f2db3")
+	)
+	(wire
+		(pts
+			(xy 100.33 130.81) (xy 100.33 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b346aa6-4c0c-427e-b571-b557f9b118ff")
+	)
+	(wire
+		(pts
+			(xy 179.07 81.28) (xy 179.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c484667-9c10-41f1-8c50-3780084d199b")
+	)
+	(wire
+		(pts
+			(xy 38.1 68.58) (xy 38.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c67b6f9-e120-489f-95ce-38dd38391db1")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 129.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ceb9362-c594-4dc2-bd87-d798dc87ae3c")
+	)
+	(wire
+		(pts
+			(xy 26.67 153.67) (xy 38.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4aa3fd-53ae-4415-94c2-fd7c4e1a0bfc")
+	)
+	(wire
+		(pts
+			(xy 123.19 133.35) (xy 123.19 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d96df59-babf-48fb-a031-b4d3fcae0727")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da738f0-9bd6-4864-a326-ab4c0e7519c0")
+	)
+	(wire
+		(pts
+			(xy 129.54 19.05) (xy 143.51 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701c4342-c6a1-4301-be51-ef70a20470a7")
+	)
+	(wire
+		(pts
+			(xy 50.8 54.61) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a251b4-590b-4746-a2ba-781592d26e6a")
+	)
+	(wire
+		(pts
+			(xy 50.8 138.43) (xy 44.45 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7306ee2e-b51a-495b-ab8f-400de18de7e8")
+	)
+	(wire
+		(pts
+			(xy 179.07 31.75) (xy 179.07 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7383de14-067d-4a74-a918-909a34c2d817")
+	)
+	(wire
+		(pts
+			(xy 46.99 86.36) (xy 44.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749c5d65-fe4a-4d4f-a41b-70e7a67ec5af")
+	)
+	(wire
+		(pts
+			(xy 123.19 138.43) (xy 116.84 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752fc0f0-91ec-417b-880a-419b6382acae")
+	)
+	(wire
+		(pts
+			(xy 195.58 101.6) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7588db85-6e05-4b9e-b5fb-2322443ecf4d")
+	)
+	(wire
+		(pts
+			(xy 78.74 153.67) (xy 64.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764dda93-4b66-49b8-b65b-83d5cf2944e2")
+	)
+	(wire
+		(pts
+			(xy 26.67 135.89) (xy 26.67 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "777c6219-695a-4b12-bc15-378e2bce453b")
+	)
+	(wire
+		(pts
+			(xy 50.8 149.86) (xy 50.8 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f9bf56-eff6-4c63-8213-5d2c8c492681")
+	)
+	(wire
+		(pts
+			(xy 184.15 54.61) (xy 195.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a94137f-39d0-49db-bf17-a2dedfc365b3")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c23a867-88b6-4b3a-9db3-f8a7659bb3c1")
+	)
+	(wire
+		(pts
+			(xy 38.1 138.43) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9ca90d-a62e-4d86-89a5-3f3cc3911348")
+	)
+	(wire
+		(pts
+			(xy 123.19 88.9) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef86f2b-dbe4-4440-9645-0f4020454689")
+	)
+	(wire
+		(pts
+			(xy 179.07 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f95caf-61fe-438d-99f3-582564a930af")
+	)
+	(wire
+		(pts
+			(xy 26.67 54.61) (xy 38.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8198c80c-e66b-4296-9cf1-ffe4242e7657")
+	)
+	(wire
+		(pts
+			(xy 123.19 135.89) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b75ec1-340a-4c6f-8ee7-a5083a09704e")
+	)
+	(wire
+		(pts
+			(xy 143.51 83.82) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c325bc-f467-4efb-927d-4e6812bcdeea")
+	)
+	(wire
+		(pts
+			(xy 116.84 133.35) (xy 123.19 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c4bf57-a4af-4011-8998-62b416ada5e9")
+	)
+	(wire
+		(pts
+			(xy 64.77 118.11) (xy 83.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fa5195-94ea-4d4e-ac54-13b53e332e4b")
+	)
+	(wire
+		(pts
+			(xy 116.84 83.82) (xy 123.19 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f364d1-ad6a-4c5e-be4b-44ab501d5ef9")
+	)
+	(wire
+		(pts
+			(xy 208.28 88.9) (xy 208.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88eb74b6-9273-4768-a7bf-e9c903c53dd7")
+	)
+	(wire
+		(pts
+			(xy 38.1 81.28) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a49d737-33bc-48b9-9d92-ef196a55af4e")
+	)
+	(wire
+		(pts
+			(xy 195.58 88.9) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8187e9-c542-405f-9762-bcfdbb5e832d")
+	)
+	(wire
+		(pts
+			(xy 205.74 54.61) (xy 208.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb645da-e2b6-49bb-8625-afb7cdea610e")
+	)
+	(wire
+		(pts
+			(xy 83.82 118.11) (xy 83.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce45de1-010e-4fee-b901-51385d2aa08a")
+	)
+	(wire
+		(pts
+			(xy 123.19 83.82) (xy 123.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe823b8-a22c-472b-aec3-11e1d2e93dce")
+	)
+	(wire
+		(pts
+			(xy 50.8 68.58) (xy 64.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f2f437-bff3-48f4-b8bb-efb0c8edaf8e")
+	)
+	(wire
+		(pts
+			(xy 198.12 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917575da-9c72-43cb-a000-c5f0f2ac5525")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 143.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920a36fc-ee7d-4f07-bb85-860f7fb45bef")
+	)
+	(wire
+		(pts
+			(xy 123.19 39.37) (xy 116.84 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932ba01a-ff00-44b0-8ccb-db4b7952cc6f")
+	)
+	(wire
+		(pts
+			(xy 129.54 118.11) (xy 143.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b196d4-74cb-4f68-b030-aaa5e23671fa")
+	)
+	(wire
+		(pts
+			(xy 100.33 118.11) (xy 116.84 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940e0d90-e3ce-4186-be9e-36ef4df67069")
+	)
+	(wire
+		(pts
+			(xy 64.77 34.29) (xy 64.77 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945d2614-f164-497f-8c9a-73335f13b906")
+	)
+	(wire
+		(pts
+			(xy 44.45 36.83) (xy 44.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9491d8b1-99ed-475a-8a87-0457cfd32a11")
+	)
+	(wire
+		(pts
+			(xy 26.67 104.14) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982996bc-274d-4551-9305-0b1a6dad1648")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 50.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d0e37c-fb90-4464-ac57-a47d4c4feee9")
+	)
+	(wire
+		(pts
+			(xy 195.58 39.37) (xy 195.58 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c8599d-2551-49b5-b74f-9e32a4f7d6cc")
+	)
+	(wire
+		(pts
+			(xy 105.41 153.67) (xy 116.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7624c9-a1a0-4f4a-9a00-d1f9a42abf16")
+	)
+	(wire
+		(pts
+			(xy 40.64 68.58) (xy 38.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adda1e1-b66e-4ad1-a066-ffd9d8a0fc67")
+	)
+	(wire
+		(pts
+			(xy 236.22 54.61) (xy 222.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdee5f0-75c3-4ebf-bacd-0d2052700fd2")
+	)
+	(wire
+		(pts
+			(xy 105.41 36.83) (xy 105.41 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c238e4c-3457-429e-97fd-f256cb81226e")
+	)
+	(wire
+		(pts
+			(xy 100.33 81.28) (xy 100.33 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc3ec54-3d31-4cdd-b1a0-a78142d638c0")
+	)
+	(wire
+		(pts
+			(xy 50.8 50.8) (xy 50.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cde3f0e-388e-4436-9d3d-0eaac39b78eb")
+	)
+	(wire
+		(pts
+			(xy 184.15 104.14) (xy 195.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0f5d0f-ebfc-4a7e-b347-2153b5833aec")
+	)
+	(wire
+		(pts
+			(xy 100.33 19.05) (xy 116.84 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e57b9f8-9a8d-4221-afc1-db79ed141361")
+	)
+	(wire
+		(pts
+			(xy 116.84 118.11) (xy 116.84 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0855da8-094c-4d57-b4de-e05b329851d0")
+	)
+	(wire
+		(pts
+			(xy 129.54 153.67) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15d4191-c486-4201-b0fb-c85098b4c19e")
+	)
+	(wire
+		(pts
+			(xy 123.19 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a246e717-e989-45e8-9663-e55c7ce173d3")
+	)
+	(wire
+		(pts
+			(xy 123.19 86.36) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c92fd7-bb2d-4df9-82ce-4cfe59f12bce")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 44.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44b55cf-0890-4641-8ed8-06a688700663")
+	)
+	(wire
+		(pts
+			(xy 40.64 54.61) (xy 38.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47c2dab-793b-4d66-93f8-d7650140f5a7")
+	)
+	(wire
+		(pts
+			(xy 129.54 120.65) (xy 129.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bfe6c3-f4e2-460f-ae71-41b760700a66")
+	)
+	(wire
+		(pts
+			(xy 184.15 86.36) (xy 184.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93b1ee8-4f41-4271-b36f-815048da6438")
+	)
+	(wire
+		(pts
+			(xy 78.74 86.36) (xy 78.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9fc093a-e8d6-4fe4-9ddb-c445f260e999")
+	)
+	(wire
+		(pts
+			(xy 195.58 19.05) (xy 195.58 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0aa245-c9c3-42b0-8fa3-59b8fe3623b9")
+	)
+	(wire
+		(pts
+			(xy 48.26 68.58) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac572e19-8a8b-4fe2-9017-c57ec37f5211")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade48797-f7d9-49cd-9613-e54b1f9c8f68")
+	)
+	(wire
+		(pts
+			(xy 116.84 52.07) (xy 116.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af34a22f-c599-4145-ae9e-5ca9d44cc553")
+	)
+	(wire
+		(pts
+			(xy 143.51 133.35) (xy 143.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21ed34a-fa55-4332-88e7-e551b27f3e3e")
+	)
+	(wire
+		(pts
+			(xy 38.1 130.81) (xy 38.1 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b292feca-2a30-4146-9fc1-c8f936053177")
+	)
+	(wire
+		(pts
+			(xy 201.93 83.82) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ecda71-7288-4404-8b3a-b9687dc6a8ca")
+	)
+	(wire
+		(pts
+			(xy 129.54 34.29) (xy 129.54 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3aa0c83-f4ec-4684-b886-3058705f511e")
+	)
+	(wire
+		(pts
+			(xy 125.73 86.36) (xy 123.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45bd8d5-fe89-407d-ac20-257f9f43201f")
+	)
+	(wire
+		(pts
+			(xy 205.74 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5621ff4-7b43-4543-9bc7-79de9b20e67a")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 44.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b624b39f-5f31-46bb-a857-9f1495ed4f8b")
+	)
+	(wire
+		(pts
+			(xy 129.54 138.43) (xy 129.54 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63f66c4-8231-43da-a305-707349e2a7fb")
+	)
+	(wire
+		(pts
+			(xy 201.93 34.29) (xy 208.28 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ae77ea-b62e-4bbd-99df-439246fa97ab")
+	)
+	(wire
+		(pts
+			(xy 123.19 36.83) (xy 123.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c4a657-c485-4395-b9ea-63ae87353a98")
+	)
+	(wire
+		(pts
+			(xy 127 19.05) (xy 129.54 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c8b88a-a390-47d5-9691-ac6e232a2205")
+	)
+	(wire
+		(pts
+			(xy 208.28 21.59) (xy 208.28 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba42106c-86fb-47e0-8768-97dcf49151b7")
+	)
+	(wire
+		(pts
+			(xy 83.82 19.05) (xy 83.82 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb19e504-fe24-41b6-b72e-ec2495c948d3")
+	)
+	(wire
+		(pts
+			(xy 44.45 39.37) (xy 38.1 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb81b300-9b50-41ed-a89d-f736f1dee04f")
+	)
+	(wire
+		(pts
+			(xy 184.15 36.83) (xy 184.15 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe539eb-5e7c-46da-80aa-856cba935240")
+	)
+	(wire
+		(pts
+			(xy 40.64 19.05) (xy 38.1 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5affc4-11ca-4bb0-84d4-2b706bdaf171")
+	)
+	(wire
+		(pts
+			(xy 116.84 34.29) (xy 123.19 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda52282-6a03-4504-bbb8-59aeacd37c63")
+	)
+	(wire
+		(pts
+			(xy 26.67 86.36) (xy 26.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8115e2-8324-4b75-a55c-8752b0103d9d")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01dfa7f-7f4d-4392-80f8-f6fac9a69a03")
+	)
+	(wire
+		(pts
+			(xy 119.38 54.61) (xy 116.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c112f3ea-f699-403b-bfd0-0d6d17d3e9d8")
+	)
+	(wire
+		(pts
+			(xy 21.59 68.58) (xy 38.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c141deeb-576f-4620-8c97-d5eec7ceb6e4")
+	)
+	(wire
+		(pts
+			(xy 208.28 19.05) (xy 222.25 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17067c3-67ee-4d82-9a25-24e4bc9db903")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c201ba66-3d91-456f-ba09-c0ff8a7df6b7")
+	)
+	(wire
+		(pts
+			(xy 162.56 19.05) (xy 162.56 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c0277f-f09f-4cdb-a121-ba04277cf7fe")
+	)
+	(wire
+		(pts
+			(xy 50.8 21.59) (xy 50.8 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44e537a-638f-4054-a755-fe73d3c27979")
+	)
+	(wire
+		(pts
+			(xy 48.26 118.11) (xy 50.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b8b3d0-1c8b-4431-98ad-2ee61fee0a74")
+	)
+	(wire
+		(pts
+			(xy 119.38 153.67) (xy 116.84 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2cc894-daa6-47c1-beec-97d1aa32b36e")
+	)
+	(wire
+		(pts
+			(xy 241.3 68.58) (xy 241.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf0526e-e9d7-413f-917b-458f21a6c022")
+	)
+	(wire
+		(pts
+			(xy 44.45 83.82) (xy 44.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1fced0-a24e-4cf4-a08c-8b6ed496cd50")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc24c64d-3d52-4e13-aa02-cef33dafdd2c")
+	)
+	(wire
+		(pts
+			(xy 38.1 88.9) (xy 38.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd745c79-6962-430d-bffe-7372342df520")
+	)
+	(wire
+		(pts
+			(xy 64.77 91.44) (xy 64.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf00fccc-6b17-4a09-8eb1-4d05d06960cb")
+	)
+	(wire
+		(pts
+			(xy 123.19 34.29) (xy 129.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf07339c-27f6-4c1b-b5d2-90968068dc7a")
+	)
+	(wire
+		(pts
+			(xy 125.73 135.89) (xy 123.19 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf5f8120-0784-4e93-a3a7-f13dd8cae9eb")
+	)
+	(wire
+		(pts
+			(xy 38.1 101.6) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8b8e60-ac33-4387-9492-32e4581e3f1d")
+	)
+	(wire
+		(pts
+			(xy 38.1 34.29) (xy 44.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09f99d0-6762-498c-a372-87a464d7b8fb")
+	)
+	(wire
+		(pts
+			(xy 195.58 52.07) (xy 195.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a0d2f7-2a1b-4b4e-a30e-7772aecd0eb6")
+	)
+	(wire
+		(pts
+			(xy 222.25 34.29) (xy 222.25 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18eb5ce-ca9e-4f46-bb47-ab7616d1ff79")
+	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 208.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2746805-f387-4998-944a-d5ae09e0167e")
+	)
+	(wire
+		(pts
+			(xy 50.8 120.65) (xy 50.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3084c5c-2949-4768-8619-a2859534d64a")
+	)
+	(wire
+		(pts
+			(xy 204.47 36.83) (xy 201.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3149111-a6fe-42cf-93d6-c29519865d55")
+	)
+	(wire
+		(pts
+			(xy 201.93 39.37) (xy 195.58 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b6de96-216b-400d-bd29-438f4519674f")
+	)
+	(wire
+		(pts
+			(xy 162.56 118.11) (xy 162.56 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d485dd94-6604-46ea-a806-8a59745e9db1")
+	)
+	(wire
+		(pts
+			(xy 143.51 140.97) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fe664b-ff1e-4822-9630-d5d91703fee1")
+	)
+	(wire
+		(pts
+			(xy 78.74 104.14) (xy 64.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5449b23-dec4-40e3-b336-9822733d5e99")
+	)
+	(wire
+		(pts
+			(xy 78.74 135.89) (xy 78.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d85d0f3c-57cc-4638-bc14-b2ce894dc536")
+	)
+	(wire
+		(pts
+			(xy 44.45 34.29) (xy 50.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da692e01-fe08-4bbc-a8f9-0e390accb8af")
+	)
+	(wire
+		(pts
+			(xy 208.28 34.29) (xy 208.28 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3a4de8-0f2e-4ffc-9ced-7f2173b81ede")
+	)
+	(wire
+		(pts
+			(xy 116.84 68.58) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de31c288-2038-4ae4-ab29-19d305a81a3d")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 64.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01cb147-7698-458b-b5e5-ea0382396b51")
+	)
+	(wire
+		(pts
+			(xy 143.51 41.91) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e127a5df-1302-4d07-84c5-6b31ee8c0933")
+	)
+	(wire
+		(pts
+			(xy 201.93 86.36) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2046380-d854-47c2-a4e3-5c9f4b6e091d")
+	)
+	(wire
+		(pts
+			(xy 208.28 68.58) (xy 222.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e443601d-cbe8-4242-96cc-a3eae4525b51")
+	)
+	(wire
+		(pts
+			(xy 64.77 140.97) (xy 64.77 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b4c0b4-570d-491d-beeb-6728468d7e9f")
+	)
+	(wire
+		(pts
+			(xy 21.59 31.75) (xy 21.59 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e730ff3a-e012-4c36-b97a-7f1675cc7b29")
+	)
+	(wire
+		(pts
+			(xy 21.59 19.05) (xy 38.1 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9cffa20-c510-4f9e-a31d-65b8f1735593")
+	)
+	(wire
+		(pts
+			(xy 205.74 68.58) (xy 208.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba3b349-2165-4f5d-9db8-4e6bc8040c7d")
+	)
+	(wire
+		(pts
+			(xy 195.58 83.82) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec52fdb8-bd27-450f-98d6-1e4e70b57741")
+	)
+	(wire
+		(pts
+			(xy 208.28 83.82) (xy 208.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec658ca5-bdd2-4de5-8904-40e3b5a7fa01")
+	)
+	(wire
+		(pts
+			(xy 21.59 81.28) (xy 21.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa1c7b5-8283-4dca-9760-fd428db9d2a8")
+	)
+	(wire
+		(pts
+			(xy 48.26 104.14) (xy 50.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c34b1b-d6e5-456c-96d3-2f313a1112b2")
+	)
+	(wire
+		(pts
+			(xy 241.3 19.05) (xy 241.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3182f65-441d-42bc-b400-eba7138eebfd")
+	)
+	(wire
+		(pts
+			(xy 129.54 54.61) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d5a2dd-4a99-4303-bc51-d85e6486fbf7")
+	)
+	(wire
+		(pts
+			(xy 201.93 34.29) (xy 201.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44142e4-9209-4f90-8294-b53fb9cfc832")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 50.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f473e58e-fe59-44e5-af51-77c7a5a94bd0")
+	)
+	(wire
+		(pts
+			(xy 195.58 68.58) (xy 195.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f509a631-efab-4f5d-9e09-2828f18ad517")
+	)
+	(wire
+		(pts
+			(xy 222.25 91.44) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55bb15f-9e16-4fb4-8872-3191715a18b4")
+	)
+	(wire
+		(pts
+			(xy 38.1 151.13) (xy 38.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f262e8-1ca6-43c9-8c9f-2b39e0f16de5")
+	)
+	(wire
+		(pts
+			(xy 204.47 86.36) (xy 201.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7dfc1ca-0be0-4395-b9c4-c204a9ab1e6e")
+	)
+	(wire
+		(pts
+			(xy 123.19 34.29) (xy 123.19 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf5bee0-05a5-49be-82c5-03615749aff8")
+	)
+	(text "8x https://www.tme.eu/pl/details/bnc-129/zlacza-bnc/"
+		(exclude_from_sim no)
+		(at 218.44 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "656074d9-2033-45d7-bd25-9d0feed2b9f6")
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 125.73 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "004d4a3f-101e-42ff-812f-6ed9fe0f91be")
+		(property "Reference" "#PWR071"
+			(at 132.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 129.54 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d62e668f-965a-4272-a8c5-6de2c14f6952")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 50.8 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "040e5d0d-c502-4636-85e4-fa44ae84feed")
+		(property "Reference" "D1724"
+			(at 53.34 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 53.34 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 50.8 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f463859e-76c8-461d-9f74-b7f5a823cac7")
+		)
+		(pin "2"
+			(uuid "7d85be63-a141-4449-b9a4-d2306e09ebb4")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1724")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 222.25 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "0e8223af-3168-492c-90f5-d56028cfa5f8")
+		(property "Reference" "D1732"
+			(at 224.79 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 219.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 224.79 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8aefec8-d0e4-4682-9548-676036e43c74")
+		)
+		(pin "2"
+			(uuid "8816f6e2-8443-4f32-b8b4-282e6970be45")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1732")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 125.73 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15a28162-fca1-452a-8acd-a9aea6be031b")
+		(property "Reference" "#PWR068"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 129.54 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1758686c-4eb3-43a0-87b0-7778bcd5afc8")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 116.84 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b0c596d-9b3d-4aba-ab3c-92b7084f216d")
+		(property "Reference" "GD682"
+			(at 120.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 121.92 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "570792c3-2124-466c-b5c8-75bfa76cc83e")
+		)
+		(pin "3"
+			(uuid "8965b5fc-e566-4f87-af07-7755a43647a3")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD682")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 50.8 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2370872c-720c-4f43-be9d-b7256da201ea")
+		(property "Reference" "D1733"
+			(at 53.34 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 55.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 53.34 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33c46c5b-bba2-499c-adb5-1f45ee053b2c")
+		)
+		(pin "2"
+			(uuid "c7ef6308-c264-406b-b250-898e5d21b5c6")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1733")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 129.54 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "246dc055-2577-402f-af17-643b38b80fcc")
+		(property "Reference" "D1728"
+			(at 132.08 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 134.62 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 132.08 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd21b7d8-546e-4407-9ab4-f8ccbeb1331d")
+		)
+		(pin "2"
+			(uuid "af36e30e-5094-4625-91e8-dd52f48c9779")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1728")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 195.58 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "282e0730-050c-4a75-904c-fe4b47b2e48b")
+		(property "Reference" "GD673"
+			(at 191.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 190.5 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 195.58 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 195.58 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 191.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 195.58 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 195.58 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "067f962e-99b5-47e9-96c6-6b7b81329c62")
+		)
+		(pin "3"
+			(uuid "1335293c-c893-454a-87b4-b264ee84127f")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD673")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 46.99 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "284c82b1-bebc-4a5f-a205-6fcc4cbaf454")
+		(property "Reference" "#PWR067"
+			(at 53.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 50.8 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 46.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad141664-ce15-448a-a22f-6f31a324aed8")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 83.82 36.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2884edde-be81-4ee0-8a10-a89ab9890500")
+		(property "Reference" "J492"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 87.63 37.8067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 83.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 83.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 86.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 83.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 83.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09689a9d-fe02-4dd8-bade-02220301a011")
+		)
+		(pin "2"
+			(uuid "50d450fe-8ff3-46f0-a2f9-b3bd98b8d242")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J492")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 222.25 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2f475765-845a-4530-b4fa-3406e6111400")
+		(property "Reference" "D1741"
+			(at 224.79 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 219.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 227.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 222.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 224.79 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 222.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 222.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdd82df2-ee0d-433a-b400-5e28f7394af7")
+		)
+		(pin "2"
+			(uuid "75a14523-3525-48f7-ba27-b5b6e6c40f3b")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1741")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32cdbdf5-04fc-4460-9844-e431b054269a")
+		(property "Reference" "R1839"
+			(at 201.93 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 200.6601 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 201.93 17.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 201.93 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 201.93 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 201.93 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 201.93 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d254dfb5-3b27-483b-835a-c64033539322")
+		)
+		(pin "2"
+			(uuid "04adec1a-d3a2-4945-8931-0bc89cac02d5")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1839")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 116.84 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c28cfe2-ed15-4b81-8bc9-833e2bdb090b")
+		(property "Reference" "GD676"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 121.92 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e83dd18c-57c6-4eb4-850a-937a325c33e4")
+		)
+		(pin "3"
+			(uuid "e97d5191-8964-4887-9782-960a892ca7c9")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD676")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ceaa932-5726-4385-a890-b9463f47b430")
+		(property "Reference" "R1845"
+			(at 201.93 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 200.6601 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 201.93 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 201.93 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8720f0ce-6e29-4d91-a7dc-d36b7f771234")
+		)
+		(pin "2"
+			(uuid "c26b7962-d86a-4f3b-8954-4e664b30ab75")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1845")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 100.33 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dbb9e33-c463-4545-b231-e3ecdab179e1")
+		(property "Reference" "J499"
+			(at 97.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 96.52 87.3367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fa7438d-d2bb-4807-b36f-89f81e839434")
+		)
+		(pin "2"
+			(uuid "b2c6a61b-98b3-4171-b81e-901b8df2cf7a")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J499")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 116.84 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f0a375c-e147-42df-ad6d-818d4f5bc92f")
+		(property "Reference" "GD677"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 111.76 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 116.84 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 116.84 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 113.03 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 116.84 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 116.84 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a53de695-7577-4c80-89c7-45ad1502d65f")
+		)
+		(pin "3"
+			(uuid "643c10d5-44ac-4289-84e2-f933f7674ccc")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD677")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 21.59 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4475e645-1c6d-49b3-a10b-8700b6965fca")
+		(property "Reference" "J497"
+			(at 19.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 17.78 87.3367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 21.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 21.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 19.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 21.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 21.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dff39f2-d1ae-4814-9bc6-d60bc2f55e6c")
+		)
+		(pin "2"
+			(uuid "06eca2c7-e0b9-4efd-bab1-27adde10fb0b")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J497")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 83.82 135.89 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "457d1dc2-2af8-42e6-88d6-4f14dd52d656")
+		(property "Reference" "J504"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 87.63 136.8667 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 86.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edc9772f-2a23-4158-a75b-49e2698f5576")
+		)
+		(pin "2"
+			(uuid "89741f62-57f1-4986-9fb4-251c1ea6dfbf")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 129.54 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "4eac6481-832d-4f86-ba5c-54cfa6cc7be2")
+		(property "Reference" "D1736"
+			(at 132.08 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 132.08 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 129.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca8fe791-5842-4247-bf90-d0f7fec8346b")
+		)
+		(pin "2"
+			(uuid "56a170e3-9f38-4d11-b52d-17d5271f5a89")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1736")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "597d2ef2-e273-4aba-868a-679cc748fae4")
+		(property "Reference" "GD681"
+			(at 34.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 33.02 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 38.1 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 38.1 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 34.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 38.1 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 38.1 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6212386-fc85-4222-8d77-572ed484be9e")
+		)
+		(pin "3"
+			(uuid "459b337a-0b48-4cbb-9a33-0b6cf8cccedb")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD681")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b7916b3-2b23-4677-bcde-6e1308766f58")
+		(property "Reference" "GD674"
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 43.18 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 38.1 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 38.1 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 38.1 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 38.1 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97a11dfd-c3b8-4698-b5f4-c8571d73742e")
+		)
+		(pin "3"
+			(uuid "ba70c92a-9355-4b87-9aa1-0e03b72095bd")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD674")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ca87a73-455e-4b89-abaf-b12f90982f42")
+		(property "Reference" "R1841"
+			(at 44.45 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 43.1801 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 44.45 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 44.45 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60750239-8254-467d-9292-41786230b46f")
+		)
+		(pin "2"
+			(uuid "c28138b5-af05-425c-9ff8-94941aefbdc6")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1841")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 195.58 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60a16c02-755b-4e5f-9ec1-1a344bd0cbe9")
+		(property "Reference" "GD672"
+			(at 199.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 200.66 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 195.58 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 195.58 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 199.39 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 195.58 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 195.58 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c284a45-e973-4949-b892-281e5936cb6f")
+		)
+		(pin "3"
+			(uuid "4a39303a-89dc-4622-ba46-558701383578")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD672")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 143.51 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "626a4cd1-7942-48db-bcac-a87ba86c2138")
+		(property "Reference" "D1729"
+			(at 146.05 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 140.97 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 143.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 146.05 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 143.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 143.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a023bbb-d058-43ed-896d-c95017387b22")
+		)
+		(pin "2"
+			(uuid "ad469aaa-c9aa-4ab9-9f70-3ee4903c3de9")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1729")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 46.99 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64e41399-f97a-471c-b2da-f06c27713dfc")
+		(property "Reference" "#PWR070"
+			(at 53.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 50.8 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32ed1e02-b08d-49eb-a91e-dca238c35145")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 125.73 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "680d56ca-c8e4-4bf6-9d9e-32de41287018")
+		(property "Reference" "#PWR065"
+			(at 132.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 129.54 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 125.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71f8e41a-4c25-4dcb-bf62-302e3161b909")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68a46b2d-310b-411a-8fa5-81e3ab48ba97")
+		(property "Reference" "R1843"
+			(at 123.19 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 121.9201 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 123.19 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 123.19 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 123.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e55409ae-9f23-4f61-8df1-b8c23d0d3c14")
+		)
+		(pin "2"
+			(uuid "37b62dd8-18c0-4416-9db6-06551cab438e")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1843")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 179.07 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a4409ac-1384-4ae0-8c40-8e7eb28581be")
+		(property "Reference" "J495"
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 175.26 37.8067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6818c534-fb23-4785-85eb-18760deac5d0")
+		)
+		(pin "2"
+			(uuid "b7559da8-ac9c-42d6-972c-d72c92911204")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J495")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 21.59 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b7c9f4a-32fb-4a61-bece-735427991f8d")
+		(property "Reference" "J491"
+			(at 19.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 17.78 37.8067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 21.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 21.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 19.05 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 21.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 21.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b585703-cf19-4745-bdcb-b680abf45b26")
+		)
+		(pin "2"
+			(uuid "1abd9072-a4fb-43e3-8825-d89b30022b68")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J491")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70b7fef7-f166-4efd-b14f-71959eafffc1")
+		(property "Reference" "R1848"
+			(at 44.45 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 45.7199 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 44.45 155.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 44.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 44.45 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 44.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 44.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76dd2fb9-bfbb-4e04-98a3-3df6336d8ff0")
+		)
+		(pin "2"
+			(uuid "e9e2da91-4b58-41cd-a821-a56611cfba4c")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1848")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70eb0902-aac4-4e72-9772-fcb74b807a7d")
+		(property "Reference" "R1838"
+			(at 123.19 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 124.4599 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 123.19 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 123.19 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e749f42-491d-4ada-9f22-82892dd235cd")
+		)
+		(pin "2"
+			(uuid "58953ef4-9b3c-4e35-80d5-87cf38eaeb18")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1838")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73414a45-d7e8-430d-bf97-8a3256ddeb91")
+		(property "Reference" "R1846"
+			(at 201.93 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 203.1999 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 201.93 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 201.93 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 201.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92d0378d-5f74-4a20-b044-0ef33b6beec8")
+		)
+		(pin "2"
+			(uuid "e0b386d1-b413-4c33-bcdd-c03af3f219a4")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1846")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 208.28 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "7bc7676e-c0a5-40f5-b039-cbe8cdd28f9f")
+		(property "Reference" "D1730"
+			(at 210.82 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 205.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 213.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 210.82 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9d0b9df-6450-438b-9e6e-479b6c9d3f3d")
+		)
+		(pin "2"
+			(uuid "d337549d-881d-43d0-919b-2310161b0c56")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1730")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 195.58 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c378a77-8e4c-47e5-b2af-6cdafd838c8f")
+		(property "Reference" "GD679"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 190.5 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 195.58 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 195.58 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 191.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 195.58 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 195.58 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "199978fa-ea2a-481e-8826-22697089e71a")
+		)
+		(pin "3"
+			(uuid "66da7b81-3625-42c9-960c-fac29d5a0a21")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD679")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7def0a33-3c8c-4f3f-8b14-404cd58b8511")
+		(property "Reference" "R1850"
+			(at 123.19 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 124.4599 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 123.19 155.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 123.19 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 123.19 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 123.19 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 123.19 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "116885ec-f0c6-45ee-9ba2-bb746c1d255f")
+		)
+		(pin "2"
+			(uuid "fd7b8575-53fc-4341-92c1-7c7c84c75a7c")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1850")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 195.58 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f65b9c2-085f-4627-8997-ceb1f5b5ae8b")
+		(property "Reference" "GD678"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 200.66 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 195.58 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 195.58 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 195.58 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 195.58 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7621c48e-d638-4f0f-87c1-29ac0a5dd875")
+		)
+		(pin "3"
+			(uuid "a5d97739-db77-4812-a295-544345f141a9")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD678")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 129.54 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "812f086b-d3f3-46d6-b7d8-ce2f219fe635")
+		(property "Reference" "D1746"
+			(at 132.08 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 129.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 132.08 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 129.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 129.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04a9e243-f0d1-4df0-95de-b879d1ebe4aa")
+		)
+		(pin "2"
+			(uuid "c409eda2-fec6-4b0e-9c0f-3351ac9d199d")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1746")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 241.3 36.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85fdd439-f729-4020-9096-a649d3224a44")
+		(property "Reference" "J496"
+			(at 243.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 245.11 37.8067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 241.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 241.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 243.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 241.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 241.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a291378-82c1-49be-b04d-ef54ba5046fa")
+		)
+		(pin "2"
+			(uuid "76bb8302-e61a-4b8b-9ad9-bce28e033a51")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J496")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 162.56 36.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d9eaee8-e120-413f-bb51-27f4e3c96085")
+		(property "Reference" "J494"
+			(at 165.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 166.37 37.8067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 165.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84b7971a-4499-46c1-ba81-077c434bafbc")
+		)
+		(pin "2"
+			(uuid "f6286b2e-d321-4491-8b52-e37ed15d5c61")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J494")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 179.07 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90d59476-1859-44b3-8682-cfc7699599ed")
+		(property "Reference" "J501"
+			(at 176.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 175.26 87.3367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 179.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a44da8e9-5f9f-475f-8b01-70ed94d7c59c")
+		)
+		(pin "2"
+			(uuid "99878136-fbfb-44c0-a4a0-e7a6e54c9ec2")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 21.59 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90e0a4f4-403a-437c-bd52-79136a81b990")
+		(property "Reference" "J503"
+			(at 19.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 17.78 136.8667 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 19.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 21.59 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e048a66b-5829-45d1-8d00-4b6cb67b3310")
+		)
+		(pin "2"
+			(uuid "7d33bec1-1acd-4dbd-9775-fb7d0cd49996")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 116.84 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96ccdc85-361d-48c6-b25e-1fc7c5687972")
+		(property "Reference" "GD666"
+			(at 120.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 121.92 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 116.84 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 116.84 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 120.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 116.84 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 116.84 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b0692be-9236-4bf8-8869-8c49ecd05766")
+		)
+		(pin "3"
+			(uuid "98c62081-8771-41f6-85d4-9de4e9ad3209")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD666")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 208.28 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "973a4f60-fa5a-4611-8874-4b5a6e0e9486")
+		(property "Reference" "D1740"
+			(at 210.82 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 205.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 210.82 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db1cc8c2-9d7a-4733-b8eb-ec4e6ba85ba0")
+		)
+		(pin "2"
+			(uuid "dd004f36-44e1-43d9-b08b-671f014d7076")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1740")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9865d13e-7126-4174-a547-45d154104bc5")
+		(property "Reference" "GD680"
+			(at 41.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 43.18 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 38.1 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 38.1 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 41.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 38.1 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 38.1 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4ea912a-4d13-4c17-abc0-24bc471d5ded")
+		)
+		(pin "3"
+			(uuid "cd27ffee-5a43-453c-a3a8-2267c3e448ba")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD680")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b37a473-f720-4c58-a5b4-9000830b3979")
+		(property "Reference" "R1847"
+			(at 44.45 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 43.1801 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 44.45 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 44.45 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 44.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c39f7b2-c06b-490f-b0ea-f723a079d71b")
+		)
+		(pin "2"
+			(uuid "20c7f4af-2334-4d2d-8b37-4507df844654")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1847")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d19ef17-9d36-4c3a-9cb8-ab17fee0a3f3")
+		(property "Reference" "GD669"
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 33.02 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 38.1 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 38.1 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 38.1 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 38.1 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa0f9401-46fa-44ff-ab3a-e6995f907283")
+		)
+		(pin "3"
+			(uuid "a102125d-921f-48c4-91d5-e49e59a02596")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD669")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 143.51 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "9f73952d-acd3-46a3-b90a-a1cceeaf84e4")
+		(property "Reference" "D1738"
+			(at 146.05 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 146.05 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 143.51 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44e9d36b-1a17-4373-b1f2-69cec6f3fda6")
+		)
+		(pin "2"
+			(uuid "b44430b2-4bc7-4b24-96ed-12f64761aacf")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1738")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a579ec3f-a9d1-4078-b90c-26448d14f4a6")
+		(property "Reference" "GD675"
+			(at 34.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 33.02 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 38.1 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 38.1 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 34.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 38.1 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 38.1 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e16c103d-a642-47f7-832e-6c56cb13d4a7")
+		)
+		(pin "3"
+			(uuid "44c52ed9-5572-46c8-9000-674eeeea64b3")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD675")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 129.54 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ad61bca8-61d5-4292-8a8c-9a93cf3e5f0c")
+		(property "Reference" "D1727"
+			(at 132.08 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 127 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 134.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 132.08 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b19e5ee0-162c-4f4c-bbf8-2411c078ba97")
+		)
+		(pin "2"
+			(uuid "6deeca3f-5310-408d-90e0-e2474355ba45")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1727")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 50.8 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ae16a1fd-4284-44bb-98c1-c9c75d5bac61")
+		(property "Reference" "D1734"
+			(at 53.34 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 53.34 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbdfbbc3-d773-4a53-bc52-9ece3e5821a7")
+		)
+		(pin "2"
+			(uuid "4b5fee21-1edf-4d65-940e-6f9a57f2c070")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1734")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae76b540-c5da-4ea3-8ebb-a8d65964f882")
+		(property "Reference" "R1840"
+			(at 201.93 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 203.1999 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 201.93 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 201.93 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa10e430-3765-4019-95d6-23bfe6d8a67d")
+		)
+		(pin "2"
+			(uuid "0a4b279d-03a1-4169-8335-31a6667d5025")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1840")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b114ceed-14aa-4d99-b9bb-7b6ca3cb7980")
+		(property "Reference" "R1836"
+			(at 44.45 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 45.7199 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 44.45 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 44.45 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa5514fc-8b2f-4fff-baed-0b1a4c92e5ab")
+		)
+		(pin "2"
+			(uuid "12371829-936a-4bdc-a8ae-016dbe6b7f4e")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1836")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 162.56 135.89 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b24f199f-7768-406c-9fe3-9b33f13457f3")
+		(property "Reference" "J506"
+			(at 165.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 166.37 136.8667 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 165.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93821d44-7461-4384-8094-fdf021796d8d")
+		)
+		(pin "2"
+			(uuid "274782b2-df99-46a1-8b7c-55859ef04c5d")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 204.47 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3c90622-87d9-48a1-9b84-ae43e8b86224")
+		(property "Reference" "#PWR069"
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 208.28 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f741b1cc-bd26-404a-a5bd-c78fe2c2ef87")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 100.33 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b511fe53-0891-4481-ab1e-583554f49995")
+		(property "Reference" "J493"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 96.52 37.8067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 97.79 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f12aef8d-31e8-491c-831d-ca61d3624114")
+		)
+		(pin "2"
+			(uuid "11def1be-0f9c-45dc-9f29-8e24b66701c2")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J493")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 129.54 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b5aee694-3c06-4955-90d1-7db787875fb9")
+		(property "Reference" "D1745"
+			(at 132.08 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 134.62 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 132.08 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aceffa95-c3bd-47d2-a2bc-03f7802b6d49")
+		)
+		(pin "2"
+			(uuid "d98dc957-61c9-4db2-ab9e-308a5b64e5be")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1745")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6611acf-c612-4243-86f5-0552b821c0a5")
+		(property "Reference" "R1849"
+			(at 123.19 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 121.9201 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 123.19 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 123.19 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "960cfd95-5c58-41bd-beee-2fe1fe1df0d9")
+		)
+		(pin "2"
+			(uuid "00837a68-f9c3-40cb-aeb7-84ad63908aaf")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1849")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 116.84 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7d9270d-3cc8-44d0-a060-8bd1af81c168")
+		(property "Reference" "GD683"
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 111.76 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 116.84 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 116.84 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 116.84 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 116.84 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4db521f2-56bc-4259-84e6-5992f22b3f8b")
+		)
+		(pin "3"
+			(uuid "c6969b9a-72fc-4291-a018-fd5f7245e3fe")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD683")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 100.33 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba9a6f62-4e90-4214-a88d-f9052f3f838d")
+		(property "Reference" "J505"
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 96.52 136.8667 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 100.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 100.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 97.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 100.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 100.33 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2a03deb-8f98-4cba-afcc-78b1d9d1f00e")
+		)
+		(pin "2"
+			(uuid "eb8e4f16-abdc-4385-86a3-03e930cf05f1")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bae6730b-d43b-4960-aa0a-6e2a54d36380")
+		(property "Reference" "R1837"
+			(at 123.19 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 121.9201 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 123.19 17.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 123.19 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 123.19 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 123.19 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 123.19 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ebc9d61-8a73-4ce3-b0be-f4c93d97cd8a")
+		)
+		(pin "2"
+			(uuid "49177597-d739-475f-9406-f77cc594f05f")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1837")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 129.54 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c0866407-7864-4b17-b538-78b34c8809b0")
+		(property "Reference" "D1737"
+			(at 132.08 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 127 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 132.08 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e82ca97-b7a5-4ca5-b585-86c366957ee6")
+		)
+		(pin "2"
+			(uuid "0875e392-367c-4f42-b550-f674ee7a3f33")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1737")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 50.8 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c10fe62a-f4a2-43f6-9923-a674e7ac4f9e")
+		(property "Reference" "D1742"
+			(at 53.34 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 55.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 53.34 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9915045-a858-46ab-9a9e-f9a6473b1054")
+		)
+		(pin "2"
+			(uuid "966c7a10-93c5-4c3e-b78b-b880e4da39b5")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1742")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 162.56 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c40bfde2-f077-4434-8115-5532ede4d42f")
+		(property "Reference" "J500"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 166.37 87.3367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "938efb51-27a1-401c-bc54-9808fa238702")
+		)
+		(pin "2"
+			(uuid "375881fc-8977-48f7-9908-1f895f2cd5a3")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J500")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 50.8 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c98a0b5d-9f62-411a-869a-8d4361251d70")
+		(property "Reference" "D1743"
+			(at 53.34 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 48.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 55.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 53.34 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e74aa5-2024-490b-b963-917ac385eecd")
+		)
+		(pin "2"
+			(uuid "2e42e1c2-6043-4300-8ad4-701d25876286")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1743")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 204.47 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d077b819-0817-40df-b84d-fdd423b927eb")
+		(property "Reference" "#PWR066"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 208.28 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b69fe5af-3dd6-4bfa-9f69-1959b4141831")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 241.3 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3b056bd-1558-405f-8ad6-97d0c431ca8d")
+		(property "Reference" "J502"
+			(at 243.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 245.11 87.3367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 243.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c9de52d-a25b-4e67-b254-bb9fc2b4b2ca")
+		)
+		(pin "2"
+			(uuid "db372c13-620c-4db3-8fda-242cb7ae48a2")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 208.28 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d460137a-d12f-47e6-9c65-89caa9cdd6de")
+		(property "Reference" "D1731"
+			(at 210.82 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 205.74 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 213.36 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 208.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 210.82 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 208.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 208.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b1ba113-64ad-47e5-b2dd-6b037670bd8c")
+		)
+		(pin "2"
+			(uuid "ce927f04-747d-4d22-bd64-36595136d28e")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1731")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d52f4aca-a7c6-4e6b-95aa-378bf8e7713b")
+		(property "Reference" "R1842"
+			(at 44.45 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 45.7199 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 44.45 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 44.45 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 44.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c355ba4-5531-4037-b893-a7b29d4ea17a")
+		)
+		(pin "2"
+			(uuid "1bbdf6b8-3a27-4557-9964-9657f1a15033")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1842")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 116.84 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9b253d8-ff1e-4a93-89aa-dfcc249d7d81")
+		(property "Reference" "GD667"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 111.76 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 116.84 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 116.84 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 113.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 116.84 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 116.84 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff64605-8133-4ded-b05c-ca41d250d1cc")
+		)
+		(pin "3"
+			(uuid "7a5c35ff-c247-44f0-8147-e55fc71731e0")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD667")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 208.28 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e0b62d2d-801c-4d16-bca3-389800985dd4")
+		(property "Reference" "D1739"
+			(at 210.82 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 205.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 210.82 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc3a93b3-29d4-4983-9e73-27a3e367a424")
+		)
+		(pin "2"
+			(uuid "e13c7cd2-4ab8-4f1a-9858-b335d5bbd46d")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1739")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 64.77 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e29d0523-a322-4cd0-aa97-305759b6081e")
+		(property "Reference" "D1744"
+			(at 67.31 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 62.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 69.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 64.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 67.31 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 64.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 64.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e6eba34-5dee-426d-b4b8-5185823017e9")
+		)
+		(pin "2"
+			(uuid "c5298f8d-0b7e-4d34-935c-ca7fe563b30a")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1744")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 38.1 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e73f84bb-cbce-4e69-abd4-c9ca02995b09")
+		(property "Reference" "GD668"
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "90"
+			(at 43.18 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 38.1 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 38.1 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 41.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 38.1 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 38.1 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34901b98-9b89-4beb-a9cb-1ce0d3043e7e")
+		)
+		(pin "3"
+			(uuid "b5560c29-eeda-4494-98af-e8eb0d878f3f")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "GD668")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 46.99 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef6a5389-5c58-4b4c-bafc-9b202920d3fe")
+		(property "Reference" "#PWR064"
+			(at 53.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 50.8 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 46.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "685b74cf-7da3-46b2-97bf-cc0ed2d7de49")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 83.82 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0080912-ee1b-415a-8914-6afd23ef1ad0")
+		(property "Reference" "J498"
+			(at 86.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 87.63 87.3367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d6da0f95d45e9aeb8fe9f45021ef42a4/112405-12.pdf"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BNC"
+			(at 86.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/112405-12/zlacza-bnc/amphenol-rf/"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "112405-12"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85eae46e-24a1-4bb3-8bc5-5508d10f6726")
+		)
+		(pin "2"
+			(uuid "933a58cf-83e9-4e50-b0f9-47c9f8ec11a9")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "J498")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 64.77 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f6071a2c-aadd-4b1e-b5e9-01dc2572b23f")
+		(property "Reference" "D1726"
+			(at 67.31 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 62.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 69.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 67.31 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 64.77 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8e86291-3526-4079-be25-65e149a0a7bb")
+		)
+		(pin "2"
+			(uuid "d9c7c65c-64bd-4792-9185-6c707551f8b1")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1726")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 143.51 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f756c68e-37bd-443e-9d47-447a802141eb")
+		(property "Reference" "D1747"
+			(at 146.05 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 140.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 148.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 146.05 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 143.51 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9353b492-2d5b-46e8-be23-f6fa5e4fa04a")
+		)
+		(pin "2"
+			(uuid "394e9125-30a3-4371-b595-79cdc802a3ea")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1747")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb43767c-1e31-4f25-abf9-2dd7f08e0ec0")
+		(property "Reference" "R1835"
+			(at 44.45 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 43.1801 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 44.45 17.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 44.45 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 44.45 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 44.45 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 44.45 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "740bb62c-b6d6-4bc4-8231-c508be4d3949")
+		)
+		(pin "2"
+			(uuid "1f9b75f1-40c0-4b8b-ae13-86aa22d1ee3d")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1835")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 64.77 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "fbe21370-b98a-4e5a-89d6-88e0d5571e0e")
+		(property "Reference" "D1735"
+			(at 67.31 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 67.31 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e70545e7-93a1-4510-8d2c-8fd1a3c1f213")
+		)
+		(pin "2"
+			(uuid "a85644f5-d978-4b34-8190-3b71b782c29a")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1735")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbead6d8-98a2-4691-b390-94a70825001a")
+		(property "Reference" "R1844"
+			(at 123.19 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 124.4599 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 123.19 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 123.19 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbf3f4a6-e817-4853-8493-eca0a38c1426")
+		)
+		(pin "2"
+			(uuid "d8a8e86c-250f-4100-b26f-d39f764bd88c")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "R1844")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 50.8 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "fd89aa60-f2cc-4031-9f84-64b7691aedef")
+		(property "Reference" "D1725"
+			(at 53.34 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "13.6"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 53.34 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fad1033-80b6-4eaa-9236-de21cd272aa4")
+		)
+		(pin "2"
+			(uuid "a3c20e95-9d39-4e21-a234-3913a98e6b7e")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/9af47ca3-024c-4e71-bf8d-1d17a43c1b85"
+					(reference "D1725")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

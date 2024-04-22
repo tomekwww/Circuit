@@ -1,0 +1,7437 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "565279db-8cff-40f5-a8e3-c7bc95406443")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:GDT_2Pin"
+			(pin_numbers hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GD"
+				(at 5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GDT_2Pin"
+				(at 7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Gas Discharge Tube with 2 Pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "gdt"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GDT_2Pin_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.5814)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GDT_2Pin_1_1"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N4001"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4001"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4001_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4001_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:1N5817"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5817"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5817_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5817_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Diode:SMAJ12CA"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ12CA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 12.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ12CA_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ12CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x2_Male"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader_1x02_P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PINHD_1x2_Male_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x2_Male_1_1"
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x4_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x4_Male"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+				(at -1.27 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader_1x04_P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PINHD_1x4_Male_0_1"
+				(rectangle
+					(start -1.27 5.08)
+					(end 1.27 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x4_Male_1_1"
+				(pin passive line
+					(at -3.81 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 49.53 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d7b8dc-2e92-4eb9-8ee4-db39abc48058")
+	)
+	(junction
+		(at 102.87 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01ef2aff-f953-4da2-9979-720a5471e7a2")
+	)
+	(junction
+		(at 102.87 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "091638f0-60f8-4394-aa5b-8b145969cc69")
+	)
+	(junction
+		(at 49.53 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0be6c3cf-d8dc-4634-b804-7a2ffa804136")
+	)
+	(junction
+		(at 102.87 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e2bc7c1-2ab8-4413-8f11-1a91a1324eb2")
+	)
+	(junction
+		(at 49.53 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18687111-bf15-42d5-bc9d-9297713e4626")
+	)
+	(junction
+		(at 102.87 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "251223e8-5c53-4355-8fa9-c3a85849e51d")
+	)
+	(junction
+		(at 49.53 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2571a58f-5b2b-4521-988f-15b1b0963311")
+	)
+	(junction
+		(at 102.87 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32d75f51-c10e-48cc-9cd9-02fb70a4ec9b")
+	)
+	(junction
+		(at 102.87 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d321426-8d4c-470e-8e39-cf086617b2d4")
+	)
+	(junction
+		(at 102.87 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4271a6c3-03d7-461f-aa55-27a1600fa0b4")
+	)
+	(junction
+		(at 102.87 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "501ab20c-1b19-4360-b43f-0dff876e4e49")
+	)
+	(junction
+		(at 102.87 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54835a28-22e8-417f-8420-6d22abbacb32")
+	)
+	(junction
+		(at 49.53 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "639d44c2-a8c3-4a1c-ace6-9af2071cb6dc")
+	)
+	(junction
+		(at 102.87 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fc7af56-89f4-4778-8770-11bf3bb77e20")
+	)
+	(junction
+		(at 76.2 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71359977-2cb2-41af-928c-95c869f744e1")
+	)
+	(junction
+		(at 76.2 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fbb13f2-7c3d-48af-bf26-c81e1a8e7f21")
+	)
+	(junction
+		(at 49.53 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "811b3f5e-a7c3-4ebc-aa52-dec9db40c7ae")
+	)
+	(junction
+		(at 102.87 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8819fda7-2d22-48fa-991d-4501a401fbc2")
+	)
+	(junction
+		(at 102.87 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "927013eb-575d-4bc8-97df-0a0a55339fef")
+	)
+	(junction
+		(at 49.53 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9948a434-e0ad-4578-b47a-d92c9555343e")
+	)
+	(junction
+		(at 49.53 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f1d2727-df94-444e-88e5-ae8119f40eb6")
+	)
+	(junction
+		(at 102.87 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4ce2346-e990-4b91-8196-55155b2a0269")
+	)
+	(junction
+		(at 49.53 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9fdde0f-35e5-4581-a17e-24bfbc992cbf")
+	)
+	(junction
+		(at 49.53 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9a733af-0047-4e20-a2ab-496faeafbdd6")
+	)
+	(junction
+		(at 49.53 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccd3cb93-6095-4941-9367-6a591cc26254")
+	)
+	(junction
+		(at 49.53 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddd6510b-466d-43be-80d9-87e6efaa92b6")
+	)
+	(junction
+		(at 49.53 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaf9b3a5-c422-4c95-9158-af2fea0cb17e")
+	)
+	(junction
+		(at 102.87 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeef46e1-1148-4b25-b41c-37fae9a93b88")
+	)
+	(junction
+		(at 49.53 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f10a2408-c902-4565-a073-6d9da7965104")
+	)
+	(junction
+		(at 49.53 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc00c1bc-235a-4611-b71f-64a4d8865a8d")
+	)
+	(wire
+		(pts
+			(xy 68.58 59.69) (xy 85.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a174e1-623e-4b7f-94f7-842437628437")
+	)
+	(wire
+		(pts
+			(xy 69.85 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033d128d-365a-48d7-a0cd-c7b91ba6bb1c")
+	)
+	(wire
+		(pts
+			(xy 102.87 124.46) (xy 102.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbd0286-9907-4991-b6e6-588b4026bb14")
+	)
+	(wire
+		(pts
+			(xy 49.53 39.37) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1230cf15-3b52-4476-8f38-ffc64e197912")
+	)
+	(wire
+		(pts
+			(xy 115.57 109.22) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125978af-fd2a-4caf-8651-ad8492785a55")
+	)
+	(wire
+		(pts
+			(xy 46.99 116.84) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a027d7-c2cc-41c8-8c1a-8c3bf832340e")
+	)
+	(wire
+		(pts
+			(xy 49.53 38.1) (xy 49.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1451dc40-431a-46be-84a1-dad239450ec8")
+	)
+	(wire
+		(pts
+			(xy 46.99 152.4) (xy 105.41 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c7510c-b1a1-41c7-9512-8f44e7d2c590")
+	)
+	(wire
+		(pts
+			(xy 49.53 157.48) (xy 49.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bcf23b9-61da-4166-bb87-16070a3fac46")
+	)
+	(wire
+		(pts
+			(xy 102.87 77.47) (xy 102.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5cde33-1dcb-4045-8ac4-030330d877ed")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 49.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb9a8dd-396c-4a4c-a7eb-18b903388320")
+	)
+	(wire
+		(pts
+			(xy 46.99 144.78) (xy 102.87 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ccb9c18-b289-489f-8e87-86303549625e")
+	)
+	(wire
+		(pts
+			(xy 46.99 124.46) (xy 102.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7337db-7541-4951-a731-d7a6ffe44afb")
+	)
+	(wire
+		(pts
+			(xy 46.99 165.1) (xy 102.87 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8d08ea-2a7e-438f-9529-fdef0ec799e7")
+	)
+	(wire
+		(pts
+			(xy 46.99 175.26) (xy 102.87 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2062f61f-cf89-4650-8bf3-bbd1d949360b")
+	)
+	(wire
+		(pts
+			(xy 105.41 170.18) (xy 46.99 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216a741d-12eb-466a-90d0-7f64ead3c4cc")
+	)
+	(wire
+		(pts
+			(xy 102.87 29.21) (xy 102.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23884f69-494b-4250-9c34-97154c25b6e3")
+	)
+	(wire
+		(pts
+			(xy 49.53 39.37) (xy 72.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2480c462-bd79-4a09-b697-0f7be2ce1937")
+	)
+	(wire
+		(pts
+			(xy 49.53 27.94) (xy 49.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28deb709-af0d-430f-9cdb-45d41771d491")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299b7912-88ef-44e9-8560-e9de30eed14f")
+	)
+	(wire
+		(pts
+			(xy 115.57 162.56) (xy 113.03 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d86da37-4298-4a4a-b3cf-b3c0ed5bd29b")
+	)
+	(wire
+		(pts
+			(xy 49.53 134.62) (xy 102.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d76dc3-44f3-4323-b809-7cb7d3edef78")
+	)
+	(wire
+		(pts
+			(xy 49.53 116.84) (xy 49.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358ba816-3a95-46c3-b7c8-4c5651349127")
+	)
+	(wire
+		(pts
+			(xy 105.41 109.22) (xy 46.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d62d86-b626-4cec-89e5-c66e5936cc8c")
+	)
+	(wire
+		(pts
+			(xy 46.99 114.3) (xy 102.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3678e5fb-0a50-4ead-80c8-41d5f788f3c4")
+	)
+	(wire
+		(pts
+			(xy 49.53 167.64) (xy 49.53 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cfe97eb-84ea-414c-acd5-428d5df51140")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 49.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f242c48-d797-4f8a-a26c-cf3d178a86e6")
+	)
+	(wire
+		(pts
+			(xy 68.58 77.47) (xy 76.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f36b2b2-81b1-4121-b649-50129d79e7fb")
+	)
+	(wire
+		(pts
+			(xy 46.99 147.32) (xy 49.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4176f22d-3f68-435d-b488-57515369ec07")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f26632-e2ea-4c2f-b20d-fad834f4f8ec")
+	)
+	(wire
+		(pts
+			(xy 115.57 180.34) (xy 113.03 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432733c5-6f67-40f6-ba0c-bd3b1c20d8a1")
+	)
+	(wire
+		(pts
+			(xy 46.99 127) (xy 49.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b3c8ca-b625-45f2-aa5d-574db44b3862")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 72.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457741fc-6bc5-488d-98f1-020aade2cdf7")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 76.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4701a689-cd77-4e14-95c2-ecc7eb287a1e")
+	)
+	(wire
+		(pts
+			(xy 105.41 139.7) (xy 46.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ebc447-a184-41b3-a456-b028e89d98df")
+	)
+	(wire
+		(pts
+			(xy 115.57 170.18) (xy 113.03 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf5f9b4-578f-4c21-906a-82bd65200dd7")
+	)
+	(wire
+		(pts
+			(xy 115.57 152.4) (xy 113.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e830abd-8e45-4d27-99ae-8e5a0348273f")
+	)
+	(wire
+		(pts
+			(xy 115.57 129.54) (xy 113.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5afc29-0046-4ae1-99ac-3416b1e40f66")
+	)
+	(wire
+		(pts
+			(xy 102.87 88.9) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ee6a6c-53ae-469b-adcc-3110556c9adc")
+	)
+	(wire
+		(pts
+			(xy 102.87 59.69) (xy 102.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afe6452-981f-4e95-bd51-a9ceb6c97749")
+	)
+	(wire
+		(pts
+			(xy 115.57 160.02) (xy 113.03 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa0d108-e755-4a36-895f-70fb82955ee6")
+	)
+	(wire
+		(pts
+			(xy 115.57 111.76) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606e85c9-2da8-4aec-81a7-c1d4b2df66bc")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66409141-6bc9-460b-bf95-40511d085eff")
+	)
+	(wire
+		(pts
+			(xy 102.87 144.78) (xy 102.87 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69886fbd-ed42-4f5c-9e07-a96a693a1349")
+	)
+	(wire
+		(pts
+			(xy 105.41 129.54) (xy 46.99 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b47ba1e-ca8e-4add-85c8-bd42d28d7c4f")
+	)
+	(wire
+		(pts
+			(xy 115.57 119.38) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6631aa-63cc-4369-8e86-78d53cf2582f")
+	)
+	(wire
+		(pts
+			(xy 115.57 149.86) (xy 113.03 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72863e4f-018a-4343-9590-f01adfb357ef")
+	)
+	(wire
+		(pts
+			(xy 46.99 172.72) (xy 105.41 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75939ee9-50e3-4ee5-ad47-4ca5ba337958")
+	)
+	(wire
+		(pts
+			(xy 46.99 157.48) (xy 49.53 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b77ae72-b2a1-4c34-8648-00fc7ffc2fb0")
+	)
+	(wire
+		(pts
+			(xy 46.99 167.64) (xy 49.53 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf98d53-0254-4578-8f51-7bc82b5d7a99")
+	)
+	(wire
+		(pts
+			(xy 46.99 134.62) (xy 49.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869fe051-58f6-4448-97c3-f28dccfdad8d")
+	)
+	(wire
+		(pts
+			(xy 49.53 59.69) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877ee31d-92a5-4507-b122-4b26fc122c96")
+	)
+	(wire
+		(pts
+			(xy 115.57 182.88) (xy 113.03 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a17cf7-7005-499e-a7a2-b479c28403e2")
+	)
+	(wire
+		(pts
+			(xy 92.71 77.47) (xy 102.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899db627-fe98-4d4b-88f0-59692a403fb9")
+	)
+	(wire
+		(pts
+			(xy 74.93 29.21) (xy 74.93 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5a0596-13b4-4829-b64d-b4517586c01f")
+	)
+	(wire
+		(pts
+			(xy 105.41 149.86) (xy 46.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f21877-b47e-499b-b36c-65b75bafcde7")
+	)
+	(wire
+		(pts
+			(xy 80.01 67.31) (xy 102.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e48b3d-27d7-4722-ba1f-5fd9dc664d59")
+	)
+	(wire
+		(pts
+			(xy 105.41 160.02) (xy 46.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9424829b-7f8f-4b70-b1f0-ff3d1c7aa498")
+	)
+	(wire
+		(pts
+			(xy 49.53 88.9) (xy 59.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974666ad-b83f-4c5b-932d-e0b24be5ad49")
+	)
+	(wire
+		(pts
+			(xy 49.53 77.47) (xy 49.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ecce516-124e-4636-adef-f53a90582c99")
+	)
+	(wire
+		(pts
+			(xy 49.53 88.9) (xy 49.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0639055-7329-4595-8c04-bf174e5a6bd5")
+	)
+	(wire
+		(pts
+			(xy 46.99 142.24) (xy 105.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a190fcc3-4fab-4696-bfb4-adbbec95d6e1")
+	)
+	(wire
+		(pts
+			(xy 115.57 139.7) (xy 113.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3489909-a9d1-4390-aabf-1ab86b9ab587")
+	)
+	(wire
+		(pts
+			(xy 85.09 77.47) (xy 76.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a57101-1802-4072-9a46-1f2454f4149d")
+	)
+	(wire
+		(pts
+			(xy 49.53 59.69) (xy 60.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5be5a1a-1017-4c61-bce0-8079bd2ab9b6")
+	)
+	(wire
+		(pts
+			(xy 77.47 29.21) (xy 102.87 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72f6f1a-90bf-4948-9626-b14bde9c673c")
+	)
+	(wire
+		(pts
+			(xy 105.41 119.38) (xy 46.99 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8040b3f-0b00-4307-b4d7-b3c6c95e306e")
+	)
+	(wire
+		(pts
+			(xy 102.87 27.94) (xy 102.87 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebb619b-545c-421b-a29c-376211e217e4")
+	)
+	(wire
+		(pts
+			(xy 49.53 77.47) (xy 60.96 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e7f681-6c44-409a-a131-900a8517bb34")
+	)
+	(wire
+		(pts
+			(xy 77.47 29.21) (xy 77.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6442f59-2dd9-4842-9a9f-1fbad5b8ef61")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 49.53 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ad185c-aa9c-47a1-b15f-6789f7a13b20")
+	)
+	(wire
+		(pts
+			(xy 46.99 106.68) (xy 49.53 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e0e428-a1d7-4708-8a66-0b1dd6392f63")
+	)
+	(wire
+		(pts
+			(xy 102.87 114.3) (xy 102.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9100b1c-f7ab-4588-a067-6f0783671d40")
+	)
+	(wire
+		(pts
+			(xy 93.98 88.9) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba88bba2-f0ee-40a5-b69d-5180a06993a5")
+	)
+	(wire
+		(pts
+			(xy 49.53 134.62) (xy 49.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd45bd6a-61bd-4a18-b4c5-bc2aab2877f5")
+	)
+	(wire
+		(pts
+			(xy 102.87 154.94) (xy 102.87 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45a24f0-106f-4b60-a2b4-1a3c3e24af53")
+	)
+	(wire
+		(pts
+			(xy 102.87 175.26) (xy 102.87 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46922f5-66a9-4683-b0e3-b6f12ccff159")
+	)
+	(wire
+		(pts
+			(xy 49.53 86.36) (xy 49.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7529d81-ab95-4e06-b770-ef166edba26b")
+	)
+	(wire
+		(pts
+			(xy 49.53 116.84) (xy 49.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb140252-1788-4107-97bd-960ecafd7a98")
+	)
+	(wire
+		(pts
+			(xy 46.99 154.94) (xy 102.87 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8aa900-9f1e-41f0-9b1b-676fc5df5a24")
+	)
+	(wire
+		(pts
+			(xy 115.57 121.92) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce54e4a-7cdf-4376-b0f8-c4bbae440b94")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 102.87 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd54101-1056-40b1-ae68-404ad8db71cd")
+	)
+	(wire
+		(pts
+			(xy 46.99 162.56) (xy 105.41 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf555c4e-e2ce-4b67-bc7d-6e3740be01c4")
+	)
+	(wire
+		(pts
+			(xy 102.87 86.36) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6e8317-d48e-4d72-9a0d-3e17d60d360f")
+	)
+	(wire
+		(pts
+			(xy 46.99 177.8) (xy 49.53 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9915df-75a2-47c0-8d3b-1f3c992909f4")
+	)
+	(wire
+		(pts
+			(xy 115.57 132.08) (xy 113.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1223027-1e92-4ab9-a276-b66a2f4886fc")
+	)
+	(wire
+		(pts
+			(xy 46.99 111.76) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22fcbb0-2d01-4fa8-9b4a-b60ef6c1963f")
+	)
+	(wire
+		(pts
+			(xy 92.71 59.69) (xy 102.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d419be76-d9ab-496a-89bf-bd7389c606ca")
+	)
+	(wire
+		(pts
+			(xy 46.99 137.16) (xy 49.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b0391e-d848-4aa9-8220-756879ad3d13")
+	)
+	(wire
+		(pts
+			(xy 105.41 180.34) (xy 46.99 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d41af1-2e9b-4e78-a6ee-6c7871aad63a")
+	)
+	(wire
+		(pts
+			(xy 46.99 182.88) (xy 105.41 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fbef1b-0b00-4bc7-9e0a-4ceb47e209bc")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 74.93 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86eec82-6da4-4237-a9d6-25a997bca575")
+	)
+	(wire
+		(pts
+			(xy 102.87 114.3) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89e5931-2543-41aa-8302-c940afebe82e")
+	)
+	(wire
+		(pts
+			(xy 102.87 39.37) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e21baa3d-956f-44db-a72f-6f06c7d36baf")
+	)
+	(wire
+		(pts
+			(xy 102.87 59.69) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e297a725-b5ae-4744-9996-32d0a9eabb7a")
+	)
+	(wire
+		(pts
+			(xy 115.57 172.72) (xy 113.03 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cc16ee-1fdc-4188-a49a-4c8605bc92b8")
+	)
+	(wire
+		(pts
+			(xy 49.53 127) (xy 49.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8755a89-0a6d-42c7-b592-a87f0ddfbc82")
+	)
+	(wire
+		(pts
+			(xy 115.57 142.24) (xy 113.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf5bf1d-df74-4c46-83b1-67ceb361ed5a")
+	)
+	(wire
+		(pts
+			(xy 49.53 147.32) (xy 49.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa9aedf-1a16-4469-8bb6-c9e78e7459e6")
+	)
+	(wire
+		(pts
+			(xy 102.87 144.78) (xy 102.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02eb40e-a4f8-4bae-81a7-27897b5429d1")
+	)
+	(wire
+		(pts
+			(xy 80.01 39.37) (xy 102.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34cab56-23ba-44b9-b9a3-93da89f60409")
+	)
+	(wire
+		(pts
+			(xy 49.53 177.8) (xy 49.53 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b26b25-cdce-46e9-91e9-9d9c96645e90")
+	)
+	(wire
+		(pts
+			(xy 46.99 104.14) (xy 102.87 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f2ac0d-aa36-4d9d-b394-3f47a9e322f7")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 72.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ba186e-fe44-4d55-a764-69b4e4036a9a")
+	)
+	(wire
+		(pts
+			(xy 46.99 132.08) (xy 105.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff449f0f-9931-4a0c-a9bb-cad8799be18d")
+	)
+	(wire
+		(pts
+			(xy 46.99 121.92) (xy 105.41 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb370fe-d85c-488d-9a3b-dec9c8cad346")
+	)
+	(text "0,001mA"
+		(exclude_from_sim no)
+		(at 58.42 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00ba6371-db20-4662-a20c-132aafb08652")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 40.64 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05a44113-01e7-4d22-9ae1-be5f86ef6b6e")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 40.64 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0819dde9-3982-4e92-ab2b-575e18b1b0dc")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 40.64 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "097b307d-8d92-4e6f-8a30-9b3e371bd7e2")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 40.64 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a4c996b-7663-460d-b3bc-6f48b55cb043")
+	)
+	(text "+12V"
+		(exclude_from_sim no)
+		(at 40.64 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13471a53-34c0-418a-86df-70c318514d7b")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 40.64 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13a7b52f-118d-4442-b869-64c650a135e0")
+	)
+	(text "+12V"
+		(exclude_from_sim no)
+		(at 40.64 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14db7d9a-5025-40c1-9bbb-c0a09298aab2")
+	)
+	(text "+12V"
+		(exclude_from_sim no)
+		(at 40.64 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17d0396a-94b8-48c2-b310-77561d7a1453")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 40.64 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "181641ca-00e4-48b3-8458-03bb0c616545")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 40.64 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19b3c592-df2f-4f2b-9d89-9f146ce1050b")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 40.64 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19d8b5c8-c2c3-4c43-9efe-1e67d090fa84")
+	)
+	(text "0,001mA"
+		(exclude_from_sim no)
+		(at 93.98 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c622ddf-45e8-473c-9aaa-4a01b00c7cab")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 40.64 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1df8dda2-8b24-4048-905a-e79504d6946d")
+	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 40.64 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f64eb7f-a6da-4d61-ac30-7b542117dae0")
+	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 40.64 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "275b71ba-a618-49ed-8591-42d4e88b77b5")
+	)
+	(text "+12V"
+		(exclude_from_sim no)
+		(at 40.64 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ff16e12-2552-4f6f-92af-b4b97ab57cf4")
+	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 40.64 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "329d787b-1481-47e7-bc18-f72296c38899")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 40.64 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "368dac3f-a737-470b-b973-8a594b4732d1")
+	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 40.64 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dbc774a-07a2-4a31-8214-30eddf09fe65")
+	)
+	(text "0mA"
+		(exclude_from_sim no)
+		(at 100.33 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4aac4974-c0d2-443c-a21d-884c8f94afd1")
+	)
+	(text "+12V"
+		(exclude_from_sim no)
+		(at 40.64 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5369215f-7073-424b-84be-a11429dc2b7a")
+	)
+	(text "0mA"
+		(exclude_from_sim no)
+		(at 52.07 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "661731b4-5ee1-4b8c-b04e-b8483e5fb044")
+	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 40.64 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7246c181-02db-4f34-9770-2194fa14f392")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 40.64 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80115a68-ea34-4846-8b53-0902d69ab4c5")
+	)
+	(text "+12V"
+		(exclude_from_sim no)
+		(at 40.64 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a7c4a19-a13b-4ce8-a14d-7b79ed5865fe")
+	)
+	(text "0,001mA"
+		(exclude_from_sim no)
+		(at 58.42 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ea38d4a-6393-40a3-83d8-6b42830a8fcc")
+	)
+	(text "+12V"
+		(exclude_from_sim no)
+		(at 40.64 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ebc783f-b1f6-49e6-b8c5-6a86e9efea64")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 40.64 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9019a6a1-4d19-41d5-b271-b53ffada3182")
+	)
+	(text "+12V"
+		(exclude_from_sim no)
+		(at 40.64 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93023aa7-8084-48b9-b94e-868e4e3cf623")
+	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 40.64 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a72f5c69-acd5-4ff4-be3d-4ddbce0e8c0f")
+	)
+	(text "D1"
+		(exclude_from_sim no)
+		(at 40.64 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7de3e7e-9328-431d-82ae-d67044ef7681")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 40.64 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae871354-bb7b-4f78-a7ff-689b56e24f34")
+	)
+	(text "0mA"
+		(exclude_from_sim no)
+		(at 52.07 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b0622db4-76a1-4953-912c-e10d69048ad6")
+	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 40.64 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4247751-51ff-4421-a56b-2bdcfa5803cb")
+	)
+	(text "0mA"
+		(exclude_from_sim no)
+		(at 100.33 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be35524b-be5e-4cdb-bfb4-b2d48475caef")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 40.64 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be764b7d-a3c8-4846-82df-6d902f863148")
+	)
+	(text "2mA"
+		(exclude_from_sim no)
+		(at 52.07 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca2df860-28d5-467f-8ab8-b553102fbf50")
+	)
+	(text "0mA"
+		(exclude_from_sim no)
+		(at 53.34 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0310640-b4bb-49dc-a47f-d1609b85f2d4")
+	)
+	(text "D0"
+		(exclude_from_sim no)
+		(at 40.64 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da712bbb-075f-4535-bd0b-3ddf2aaa73e0")
+	)
+	(text "8x https://www.tme.eu/pl/details/ncdg-04/zlacza-sygnalowe-raster-2-54mm/ninigi/\n9x https://www.tme.eu/pl/details/ncdg-02/zlacza-sygnalowe-raster-2-54mm/ninigi/\n50x https://www.tme.eu/pl/details/ncdg-t/zlacza-sygnalowe-raster-2-54mm/ninigi/\n"
+		(exclude_from_sim no)
+		(at 184.15 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df9b9c9a-06c6-4370-b6e2-59115f9151f2")
+	)
+	(text "COM"
+		(exclude_from_sim no)
+		(at 40.64 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f68252bc-6e02-40f2-8623-10b65f80dbab")
+	)
+	(hierarchical_label "Power +12V"
+		(shape input)
+		(at 102.87 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8414f67-424a-44ba-9654-bda3fb9f201c")
+	)
+	(hierarchical_label "Earth"
+		(shape input)
+		(at 76.2 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4200b2e-b299-4b06-bae1-71aa86120df8")
+	)
+	(hierarchical_label "Power GND"
+		(shape input)
+		(at 49.53 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9f01d6d-4899-422b-937f-fb290da9d6c0")
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 119.38 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "027d622f-d29a-4ccd-bef1-5ce655b449bd")
+		(property "Reference" "J460"
+			(at 124.46 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x2 Male"
+			(at 117.9851 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 120.65 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 119.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 121.92 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-02/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 119.38 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-02"
+			(at 119.38 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb705354-5c59-4c91-a1d9-82111b060e5d")
+		)
+		(pin "1"
+			(uuid "5d596b9f-eef4-494d-a63d-e61fc8298d62")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J460")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "09c6ea8f-ee43-45d5-bc1e-385a9d605ac2")
+		(property "Reference" "D1541"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "959d1195-e01d-4e48-8a79-66d57cde820e")
+		)
+		(pin "2"
+			(uuid "5e9a4a87-dd2e-4a8d-8eee-2784e1648f27")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1541")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 119.38 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "0b2cef8a-9719-4a50-8d06-b41338567591")
+		(property "Reference" "J458"
+			(at 124.46 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x2 Male"
+			(at 117.9851 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 120.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 121.92 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-02/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 119.38 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-02"
+			(at 119.38 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0b4df40-f38f-4e02-af1d-633e7112932a")
+		)
+		(pin "1"
+			(uuid "be4354a0-6aab-4a4e-a01b-68c150fa5d17")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J458")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 64.77 59.69 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "0b402111-3412-4253-970c-57d9c4e05ac4")
+		(property "Reference" "D1533"
+			(at 64.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2,0"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/pdf/572774/LITEON/LTL-4221NLC.html"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Red"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ltl-4221nlc/diody-led-tht-okragle/liteon/"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdrop" "1,7V"
+			(at 64.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Model" "LTL-4221NLC"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d197e76d-36dd-4c83-8fe6-c401db1ff6ff")
+		)
+		(pin "2"
+			(uuid "f7fcbf27-58f7-453e-9cf1-d8cfca5d526d")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1533")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "1a69e0e8-3e4c-4985-a2f1-b182e69196eb")
+		(property "Reference" "D1548"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87ab6377-a9fe-41a5-85c9-02d9cfa2df91")
+		)
+		(pin "2"
+			(uuid "da7fd560-06f8-4388-99d7-8994c2f52f6e")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1548")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Male")
+		(at 43.18 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "20bdc2fe-4136-43ed-bccc-2b6049abd130")
+		(property "Reference" "J453"
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x5 Male"
+			(at 39.37 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 43.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-04/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-04"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4b69e658-5e40-4eb7-8372-038892f32c1d")
+		)
+		(pin "2"
+			(uuid "99e1db1c-bc68-4fb7-851a-58c42b9f2e56")
+		)
+		(pin "1"
+			(uuid "722004b9-4fcd-4371-b520-e14dbe7ed692")
+		)
+		(pin "3"
+			(uuid "4086977b-6ef6-4e43-bed0-4383219fe4b4")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J453")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 119.38 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "277973eb-f618-4b9c-963c-fbe4294db2da")
+		(property "Reference" "J461"
+			(at 124.46 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x2 Male"
+			(at 117.9851 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 120.65 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 119.38 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 121.92 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-02/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 119.38 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-02"
+			(at 119.38 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0bdcc69d-a4e6-457f-8237-107e1cdb716b")
+		)
+		(pin "1"
+			(uuid "7b308994-c590-4c80-903c-c74d2284280c")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J461")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2c5f5701-c9f7-4159-badd-ab98649283e8")
+		(property "Reference" "D1543"
+			(at 109.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99c4a309-a21f-48ee-849c-f512e5333f0c")
+		)
+		(pin "2"
+			(uuid "7504ea6e-050f-444e-8644-8341f7edc4b4")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1543")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5817")
+		(at 49.53 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2f9135c3-fc3d-4d05-9132-4544c6b375e9")
+		(property "Reference" "D1532"
+			(at 52.07 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,5"
+			(at 52.07 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 45.085 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0d1d02df040a1d261ec72bc7cea12a90/1N5817-R0.pdf"
+			(at 49.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A"
+			(at 52.07 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Model" "1N5817R0"
+			(at 52.07 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n5817-r0/diody-schottky-tht/taiwan-semiconductor/1n5817-r0/"
+			(at 49.53 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdrop" "0,5V"
+			(at 45.72 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "628c2e06-0333-4b61-94d0-26cfbb06d9ef")
+		)
+		(pin "2"
+			(uuid "1d6c0a9a-4ede-4acc-aa3e-4a8518bfde4d")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1532")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "33fb2900-3fbf-4274-9361-a41dc4b36a00")
+		(property "Reference" "R1667"
+			(at 88.9 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5600"
+			(at 91.44 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 88.9 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3b68a2c15adddc45017f1757c33e8b45/cf_resistor.pdf"
+			(at 88.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5,6kR 250mW"
+			(at 88.9 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cf1_4ws-5k6/rezystory-tht/sr-passives/"
+			(at 88.9 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vdrop" "10,3V"
+			(at 88.9 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Model" "CF1/4WS-5K6"
+			(at 88.9 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53675dd1-2d72-43d7-b179-70b79f9721cc")
+		)
+		(pin "2"
+			(uuid "d22b94ed-a4d4-49bf-a0b3-c2b3d92be803")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "R1667")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Male")
+		(at 43.18 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "36902a9a-3726-4f16-b5ef-087153a43851")
+		(property "Reference" "J448"
+			(at 35.56 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x5 Male"
+			(at 39.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 43.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-04/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-04"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2b67c707-47f1-4e11-a565-3a5d085a2949")
+		)
+		(pin "2"
+			(uuid "7348c7e4-e18c-420a-a08a-fd751787d22c")
+		)
+		(pin "1"
+			(uuid "7ea6efc4-1bee-43b4-bdbe-5bb099977306")
+		)
+		(pin "3"
+			(uuid "aaf0d9f8-867e-4e1b-9f00-0eda97ebbfa2")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J448")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 102.87 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "37a81104-bf0a-4ed9-97c8-e7fda9ffb854")
+		(property "Reference" "R1668"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2"
+			(at 100.33 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 104.648 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d4d6283-58b6-45e7-8ca9-c28cf0b73dad")
+		)
+		(pin "2"
+			(uuid "0307593f-e350-4ca4-8de5-43b134b2bea4")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "R1668")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 119.38 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "3a7227c3-bc28-4c8e-b363-fb0859abc739")
+		(property "Reference" "J457"
+			(at 124.46 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x2 Male"
+			(at 117.9851 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 120.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 121.92 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-02/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 119.38 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-02"
+			(at 119.38 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8dd177d-8eb2-42e8-af01-2cfd40d97817")
+		)
+		(pin "1"
+			(uuid "f2c9b23f-8dc3-4c00-9b4f-831c78e41c44")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J457")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "3bcc5c4e-7ba3-4ea2-9145-fa43f400e431")
+		(property "Reference" "D1545"
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2601af1-040b-48de-a84c-976616d8401b")
+		)
+		(pin "2"
+			(uuid "9d1955aa-eeb3-4674-851a-42ae86705900")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1545")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Male")
+		(at 43.18 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "3c8751cf-1aa6-44b4-a927-a4a7e139b167")
+		(property "Reference" "J446"
+			(at 35.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x5 Male"
+			(at 39.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 44.45 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-04/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-04"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8005c1d6-825e-4b93-ba29-a00ce2cf35a0")
+		)
+		(pin "2"
+			(uuid "c258127f-819d-4a2b-bc51-560354fa3004")
+		)
+		(pin "1"
+			(uuid "0dac7488-a6b3-40d4-8ac0-21ac6c9f87c9")
+		)
+		(pin "3"
+			(uuid "406a8186-3ece-41ab-a824-173efc479a3a")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J446")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 64.77 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "3db5c4d3-c9c4-433d-bd98-1acff037efa9")
+		(property "Reference" "GD578"
+			(at 64.77 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "90"
+			(at 64.77 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 64.77 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 64.77 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 64.77 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 64.77 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 64.77 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6607080-b528-45a0-bb8d-da9798427b68")
+		)
+		(pin "3"
+			(uuid "6b8af991-6f4c-4cef-8648-e4ec85092490")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "GD578")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 119.38 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "498ada88-2472-4089-acbc-5f741c49772f")
+		(property "Reference" "J462"
+			(at 124.46 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x2 Male"
+			(at 117.9851 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 120.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 119.38 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 121.92 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-02/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 119.38 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-02"
+			(at 119.38 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af7ea584-67e7-4512-a593-16a8f5cd3e2e")
+		)
+		(pin "1"
+			(uuid "e9601e15-b01d-4083-91bd-676b0cd5f3b6")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J462")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "4e5479d9-a3ef-4fb3-b33e-791a02265c59")
+		(property "Reference" "D1544"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2820fd5-d63d-4dac-828f-637e44fd0b75")
+		)
+		(pin "2"
+			(uuid "d3b4c99b-0659-4af0-b2e9-80363850b45a")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1544")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "512c011b-f21c-4c89-9c4e-766a940d5618")
+		(property "Reference" "D1551"
+			(at 109.22 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15cec589-1de5-461b-a1d1-433200520093")
+		)
+		(pin "2"
+			(uuid "b2eb8d2a-6bce-498d-b397-6f8e95630ec9")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1551")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "51d15b7e-e308-41fc-ad95-1a27abcad183")
+		(property "Reference" "R1666"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2"
+			(at 52.07 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+			(at 47.752 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1d010f0222836cb51567e6715d044023/ROYALOHM-KNP.pdf"
+			(at 49.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2,2 5W"
+			(at 50.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/knp05ws-2r2/rezystory-mocy/royal-ohm/knp05sj022jaa9/"
+			(at 49.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "KNP05SJ022JAA9"
+			(at 49.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da29bc76-108c-460b-8010-ef9b96aea46e")
+		)
+		(pin "2"
+			(uuid "de3e0006-1c9a-40a7-be26-494a722db614")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "R1666")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "52437e85-4f0f-4459-bd07-532a1a5a8cf1")
+		(property "Reference" "D1537"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc6bfb81-eb88-4214-9429-fb6129dfc796")
+		)
+		(pin "2"
+			(uuid "b5a46e9a-1135-4cc9-bed7-8e05f41372c2")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1537")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Male")
+		(at 43.18 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "54cbccdd-7777-4f91-a74d-cdd1025f84bb")
+		(property "Reference" "J452"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x5 Male"
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 44.45 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 43.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-04/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-04"
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a94e2997-be07-451a-b068-a83085a6a295")
+		)
+		(pin "2"
+			(uuid "fdc775bd-9ac9-4ca7-9ee2-702893d82d00")
+		)
+		(pin "1"
+			(uuid "5f25430f-c975-487c-b655-805feb60602d")
+		)
+		(pin "3"
+			(uuid "36c5c090-8f22-41f7-98c0-63ff45296de3")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J452")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "87092584-2813-48bc-b415-af2dec5ae4c1")
+		(property "Reference" "D1550"
+			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c23e3b0a-fea8-4892-9648-719b966a12a2")
+		)
+		(pin "2"
+			(uuid "72a08438-6203-479c-b2fd-c1f1ca95ef9b")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1550")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 76.2 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8a91bcde-156d-46af-8008-041a3d79c004")
+		(property "Reference" "C651"
+			(at 76.2 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 76.2 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 72.39 40.3352 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b444ee8e17ff8a581790e632c20227ec/ELITE-PF.pdf"
+			(at 76.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100uF 25V"
+			(at 76.2 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/pf1e101mnn6311u/kondensatory-elektrolityczne-tht/elite/"
+			(at 76.2 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" " PF1E101MNN6311U"
+			(at 76.2 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b4d814d1-f011-4130-ad5e-8e34a5e1836d")
+		)
+		(pin "1"
+			(uuid "5d5b399e-7cdd-4c16-bd12-735e4eda5e20")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "C651")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8d6a8498-de55-4d89-bdd2-2ec6e6afd08a")
+		(property "Reference" "D1546"
+			(at 109.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a4790a7-0f9f-476c-b719-786fa3a163b6")
+		)
+		(pin "2"
+			(uuid "a0e2251e-e2a6-4589-abe0-935cb530814e")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1546")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 119.38 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "92aa7fd0-afc7-4f46-9c4b-eefbee1bc11a")
+		(property "Reference" "J459"
+			(at 124.46 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x2 Male"
+			(at 117.9851 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 120.65 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 119.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 121.92 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-02/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 119.38 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-02"
+			(at 119.38 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b8e1836-a900-4e01-9141-06f1551717ee")
+		)
+		(pin "1"
+			(uuid "517ea5a9-0706-4ec0-889e-ba3d8c77b2da")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J459")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "98c4567e-0fc6-42d1-889b-390b3456ffac")
+		(property "Reference" "D1540"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eee2374-d0cd-48ee-87fe-8d9a58fb5a08")
+		)
+		(pin "2"
+			(uuid "fcacf397-ac3d-45db-9435-a6e7510a818c")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1540")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Male")
+		(at 43.18 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a6b6a51d-d000-480d-a43c-fc5f5c6d505a")
+		(property "Reference" "J450"
+			(at 35.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x5 Male"
+			(at 39.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 44.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 43.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-04/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-04"
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1340094d-a8e0-4677-9be3-fa0306c6c3b6")
+		)
+		(pin "2"
+			(uuid "9daacf97-019e-44e4-81a2-42c68511ba78")
+		)
+		(pin "1"
+			(uuid "a43b17e0-1468-43eb-b9b8-d868477ba081")
+		)
+		(pin "3"
+			(uuid "a59cfd8c-1005-4f7a-b705-712c64e17057")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J450")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b4f5a092-2c70-4e73-b0ea-6096cc9e2686")
+		(property "Reference" "D1538"
+			(at 109.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86a504d3-81cf-4194-8221-e20967e7af39")
+		)
+		(pin "2"
+			(uuid "d0a0b4a2-dc66-4398-9fe2-7dca237a0c5c")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1538")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b83784c7-46ad-4a3a-a4c1-5bbc002356d4")
+		(property "Reference" "D1552"
+			(at 109.22 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8618b80c-56a3-4f85-b455-457e82f746fc")
+		)
+		(pin "2"
+			(uuid "eef445d8-880a-4d02-861f-002108adda0a")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1552")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 64.77 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "bc1c5bac-f449-4987-8744-08dc226c67b0")
+		(property "Reference" "D1534"
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13.6"
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 64.77 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df2d5d28-fbdd-4b30-8932-56b9fe73f3ae")
+		)
+		(pin "2"
+			(uuid "c60d7472-e908-48a0-ab94-c7a30c8a2626")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1534")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 88.9 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "bf858215-1dda-4597-a94d-95ec6252ff05")
+		(property "Reference" "D1536"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13.6"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6db7f56c-2c10-461d-bff4-e98e8155b547")
+		)
+		(pin "2"
+			(uuid "8f85672b-716f-4789-a701-f646bdb3c963")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1536")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "dea33ffc-1ffd-4763-a181-4d46eabcb1fe")
+		(property "Reference" "D1549"
+			(at 109.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11213897-f8ae-427a-95be-dfb65b1fb56b")
+		)
+		(pin "2"
+			(uuid "d69dab87-008b-4a37-b5a6-ab871b8ac43f")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1549")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e177b449-2877-4dbc-87d1-e39cdc21ce11")
+		(property "Reference" "D1542"
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "029f678b-9d4a-4b97-a749-220e4a9563ca")
+		)
+		(pin "2"
+			(uuid "778f9010-69c4-41c5-8e95-18a856fd2d56")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1542")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 119.38 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e5aeeabe-75ce-4bda-a7c1-987a8f388596")
+		(property "Reference" "J456"
+			(at 124.46 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x2 Male"
+			(at 117.9851 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 119.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 121.92 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-02/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 119.38 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-02"
+			(at 119.38 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86608a43-7800-4990-91be-ab0cab43e116")
+		)
+		(pin "1"
+			(uuid "c85213e9-92be-4c03-878b-fa3be84a9a63")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J456")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e5fcd508-a53c-465a-93cc-461ab6f9e817")
+		(property "Reference" "D1539"
+			(at 109.22 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a2ca7d6-50ae-45e1-9148-29f5a86d40a6")
+		)
+		(pin "2"
+			(uuid "9602e764-0989-4dc6-b56d-ab3a24b55150")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1539")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Male")
+		(at 43.18 138.43 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "e7b1bd88-e822-4afd-8d1e-792d8dd0d69c")
+		(property "Reference" "J449"
+			(at 35.56 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x5 Male"
+			(at 39.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 44.45 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-04/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 43.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-04"
+			(at 43.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f63511ef-2ecc-4a06-956f-5f91477171c3")
+		)
+		(pin "2"
+			(uuid "308d9edf-b582-4edc-b840-fb0c3f7f58fa")
+		)
+		(pin "1"
+			(uuid "c47a15c1-bfb9-40a5-a6f3-c81602af502e")
+		)
+		(pin "3"
+			(uuid "5ff98f07-f0c6-4efe-8517-25182f1e6e81")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J449")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Male")
+		(at 43.18 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ea0a7a9b-5fc1-4bf5-83ea-065a9a86c91c")
+		(property "Reference" "J447"
+			(at 35.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x5 Male"
+			(at 39.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 44.45 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 43.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-04/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-04"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4ce8765a-e80c-4051-a2be-d63f8f45db9e")
+		)
+		(pin "2"
+			(uuid "b376a871-b9d5-44f5-b6d7-4fd98cc25407")
+		)
+		(pin "1"
+			(uuid "bd43cedf-8627-4da8-98d3-74e9d5153ccb")
+		)
+		(pin "3"
+			(uuid "fadf72b3-ee59-42ac-9661-11734afbbcd5")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J447")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 119.38 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ecf1b8a5-3a16-46e0-909e-3c717a46efef")
+		(property "Reference" "J455"
+			(at 124.46 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x2 Male"
+			(at 117.9851 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 119.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 121.92 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-02/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 119.38 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-02"
+			(at 119.38 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da48b96a-0852-4f8e-bfbe-e2a75e0554c8")
+		)
+		(pin "1"
+			(uuid "df9d64a4-7c4b-412c-9315-f1f286a5503a")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J455")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x4_Male")
+		(at 43.18 158.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f051520e-e12c-4ff4-9ed8-2dbaf7daa804")
+		(property "Reference" "J451"
+			(at 35.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wiegand Pin Header 1x5 Male"
+			(at 39.37 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 44.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 43.18 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wiegand"
+			(at 43.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-04/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-04"
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "81792073-6444-4a3f-a989-5a9cc20aff94")
+		)
+		(pin "2"
+			(uuid "b17968da-81e0-429d-86b8-c5d4e4116b96")
+		)
+		(pin "1"
+			(uuid "91856e58-0020-4497-a5cd-d6350ca2e435")
+		)
+		(pin "3"
+			(uuid "d542a368-4b23-49ee-bffd-5c4f4ec8a93f")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J451")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ12CA")
+		(at 76.2 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f0c8c5df-aadd-41d9-bcad-9ad78edc786a")
+		(property "Reference" "D1535"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13.6"
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Diode_THT_AKL:D_DO-201AD_P5.08mm_Vertical_TVS"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/a419b9d761a3cd53877021c8515284cc/1.5KExx_ser.pdf"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5KE16CA"
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1.5ke16ca-cdi/diody-transil-tht-dwukierunkowe/cdil/1-5ke16ca/"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1.5KE16CA"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fd30bb2-5aa4-43c0-8bc9-01a9d9b09786")
+		)
+		(pin "2"
+			(uuid "5867e3ce-ac66-4687-9dfd-a1e8d8794269")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1535")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f62b5ea0-f42a-491a-9bde-ebec17582f9b")
+		(property "Reference" "C652"
+			(at 76.2 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 76.2 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 80.01 49.8348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/e69911e065ed5e1d0ce354af6c563ca3/CC-4.7.pdf"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V"
+			(at 76.2 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cc-100n/kondensatory-ceramiczne-tht/sr-passives/"
+			(at 76.2 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CC100N"
+			(at 76.2 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad6575c9-c1cb-4672-8c70-bfe7bf27f146")
+		)
+		(pin "1"
+			(uuid "201bffd4-120d-44ce-a9bb-b029a499ebcf")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "C652")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:GDT_2Pin")
+		(at 88.9 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f7b2c0f2-12d2-4692-b445-39093ae3cde4")
+		(property "Reference" "GD579"
+			(at 88.9 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "90"
+			(at 88.9 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P7.62mm_Vertical"
+			(at 88.9 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/05f20814a2340ae42f42ea5efcf39b26/CG2250L-Littelfuse-datasheet-7160216.pdf"
+			(at 88.9 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CG90L"
+			(at 88.9 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/cg-90l/ochronniki-przeciwprzepieciowe-tht/littelfuse/cg90l/"
+			(at 88.9 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "CG90L"
+			(at 88.9 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df1369a1-372c-4d98-9ed3-cfd9ce607d22")
+		)
+		(pin "3"
+			(uuid "2e7215d9-10fe-4b01-847d-8ed68af17a4f")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "GD579")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 76.2 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f97062ec-72bb-489b-9896-215ecebf9dac")
+		(property "Reference" "J454"
+			(at 78.74 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Pin Header 1x2 Male"
+			(at 80.01 25.5249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 80.01 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/f9d608b97b9d96b2a823a7d0da30e024/NCWD.pdf"
+			(at 68.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power"
+			(at 76.2 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 100 100 1)
+				)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/ncdw-02/zlacza-sygnalowe-raster-2-54mm/ninigi/"
+			(at 76.2 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "NCDW-02"
+			(at 76.2 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90d1756c-d46c-4043-a0d3-c95eadeb7e54")
+		)
+		(pin "1"
+			(uuid "116f252f-d7eb-4c4c-8b45-2f69856867ae")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "J454")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 109.22 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f9d084d8-d559-494a-8eb0-f6e897efe5c2")
+		(property "Reference" "D1547"
+			(at 109.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1"
+			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/c6f6445616a0da67965224a113dd79b5/1n4148.pdf"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1N4148"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "1N4148"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sklep" "https://www.tme.eu/pl/details/1n4148-dio/diody-uniwersalne-tht/diotec-semiconductor/1n4148/"
+			(at 109.22 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fdda06c-473b-4f58-9ae6-54ae63ab04e4")
+		)
+		(pin "2"
+			(uuid "7918847c-f73b-4f97-89f0-a4ec81019a2b")
+		)
+		(instances
+			(project "smart_home"
+				(path "/40877f3a-e1fe-486d-a3ad-6edc12c196a1/7ff6167e-8ddd-4670-bd3e-6dd837fcd56d"
+					(reference "D1547")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
